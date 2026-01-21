@@ -1,0 +1,386 @@
+interval,site,date,sampleID,isotope_uniqueID,species,stipe_blade,length,tray,tray_wet,time_oven,tray_dry,comments,tagged_plantID
+May-16,Manley,2016-05-26,1,MI0069,nereo,blade,7.25,8456.7,NA,41,8524.4,missing wet weight,2129
+May-16,Manley,2016-05-26,3,MI0070,nereo,blade,13.5,6567.4,NA,41,6730,forgot to do wet weight,1939
+May-16,Manley,2016-05-26,4,MI0071,nereo,blade,25,8194.8,NA,41,8414.9,forgot to do wet weight,1793
+May-16,Manley,2016-05-26,5,MI0072,nereo,blade,16.5,6585,NA,41,6686.1,forgot to do wet weight,1863
+May-16,Manley,2016-05-26,6,MI0073,nereo,blade,10,8186.7,NA,41,8277.1,forgot to do wet weight,2038
+May-16,Manley,2016-05-26,7,MI0074,nereo,blade,12.5,8458.1,NA,41,8580.1,forgot to do wet weight,2089
+May-16,Manley,2016-05-26,8,MI0075,nereo,blade,28.5,6530.8,NA,41,6723.7,forgot to do wet weight,2091
+May-16,Manley,2016-05-26,9,MI0076,nereo,blade,32,8452,NA,41,8888.2,forgot to do wet weight,1763
+May-16,Manley,2016-05-26,10,MI0077,nereo,blade,56,7732.5,NA,41,8400.2,forgot to do wet weight,2010
+May-16,Manley,2016-05-26,11,MI0078,nereo,blade,28,8691.3,NA,41,8943,forgot to do wet weight,1867
+May-16,Manley,2016-05-26,12,MI0079,nereo,blade,11.5,8248.2,NA,41,8361.5,forgot to do wet weight,1792
+May-16,Manley,2016-05-26,13,MI0080,nereo,blade,4.5,8237.5,NA,41,8278.4,forgot to do wet weight,1730
+May-16,Manley,2016-05-26,14,MI0081,nereo,blade,33.5,8471.8,NA,41,8909.2,forgot to do wet weight,310
+May-16,Manley,2016-05-26,15,MI0082,nereo,blade,40,8241.3,NA,41,8637.3,forgot to do wet weight,313
+May-16,Manley,2016-05-26,16,MI0083,nereo,blade,43,8696.1,NA,41,9084.3,forgot to do wet weight,1734
+May-16,North,2016-05-26,17,MI0084,nereo,blade,24.5,8198.3,NA,41,8476.2,forgot to do wet weight,2112
+May-16,North,2016-05-26,18,MI0085,nereo,blade,18.5,6595.8,NA,41,6830.5,forgot to do wet weight,1992
+May-16,North,2016-05-26,19,MI0086,nereo,blade,19,8301.4,NA,41,8547.6,forgot to do wet weight,2059
+May-16,North,2016-05-26,20,MI0087,nereo,blade,38.5,8196.9,NA,41,8847.1,forgot to do wet weight,2100
+May-16,North,2016-05-26,21,MI0088,nereo,blade,76,6598.4,NA,41,8749.8,forgot to do wet weight,1743
+May-16,North,2016-05-26,22,MI0089,nereo,blade,32,8248.1,NA,41,8587.7,forgot to do wet weight,2107
+May-16,North,2016-05-26,23,MI0090,nereo,blade,39.5,5833.3,NA,41,6307.8,forgot to do wet weight,1815
+May-16,North,2016-05-26,24,MI0091,nereo,blade,60,5908.9,NA,41,6967.3,forgot to do wet weight,1873
+May-16,North,2016-05-26,25,MI0092,nereo,blade,61,5836.5,NA,41,6645.6,forgot to do wet weight,2007
+May-16,North,2016-05-26,26,MI0093,nereo,blade,46,6820.4,NA,41,7402.3,forgot to do wet weight,1703
+May-16,North,2016-05-26,27,MI0094,nereo,blade,45,8245.5,NA,41,9019.7,forgot to do wet weight,1701
+May-16,Second,2016-05-27,29,MI0095,nereo,blade,31,8009.3,11690,41,8282,used griswold lab scale,2086
+May-16,Second,2016-05-27,30,MI0096,nereo,blade,34,5901,11920,41,6335.3,used griswold lab scale,1706
+May-16,Second,2016-05-27,31,MI0097,nereo,blade,22,5913.2,8790,41,6109.7,used griswold lab scale,2512
+May-16,Second,2016-05-27,32,MI0098,nereo,blade,56,8006.5,15600,41,8548,used griswold lab scale,1917
+May-16,Second,2016-05-27,33,MI0099,nereo,blade,24,6531.6,9760,41,6751.8,used griswold lab scale,2093
+May-16,Second,2016-05-27,34,MI0100,nereo,blade,62,5873.7,20870,41,6891.3,used griswold lab scale,2418
+May-16,Second,2016-05-27,35,MI0101,nereo,blade,82,8065.6,20100,41,8933.4,used griswold lab scale,1857
+May-16,Second,2016-05-27,36,MI0102,nereo,blade,22,6533.9,8810,41,6707.3,used griswold lab scale,1822
+May-16,Second,2016-05-27,37,MI0103,nereo,blade,61.5,8694.3,20600,41,9489.6,used griswold lab scale,1716
+May-16,Second,2016-05-27,38,MI0104,nereo,blade,69,8053,20640,41,8871.5,used griswold lab scale,2102
+May-16,Second,2016-05-27,39,MI0105,nereo,blade,47.5,8311.1,18750,41,9062.7,used griswold lab scale,317
+May-16,Second,2016-05-27,40,MI0106,nereo,blade,44,8548.8,16320,41,9091,used griswold lab scale,311
+May-16,Second,2016-05-27,41,MI0107,nereo,blade,94,8242.5,30980,41,9790.6,used griswold lab scale,1936
+May-16,Second,2016-05-27,42,MI0108,nereo,blade,162,8066.3,44270,41,10789.5,used griswold lab scale,2034
+May-16,Second,2016-05-27,43,MI0109,nereo,blade,52,8335.7,16000,41,8860.7,used griswold lab scale,1838
+Jun-16,Second,2016-06-13,44,MI0110,nereo,blade,36,8193,10764.8,22.5,8566.2,,2500
+Jun-16,Second,2016-06-13,45,MI0111,nereo,blade,33.3,8487.7,10032.2,22.5,8740.2,,2513
+Jun-16,Second,2016-06-13,46,MI0112,nereo,blade,57.5,8458.4,18609.8,22.5,9369.1,,2402
+Jun-16,Second,2016-06-13,47,MI0113,nereo,blade,51.8,8236.3,12993,22.5,8741.6,,1850
+Jun-16,Second,2016-06-13,48,MI0114,nereo,blade,36,8065.3,10608.1,22.5,8416.5,,1928
+Jun-16,Second,2016-06-13,49,MI0115,nereo,blade,46.8,5870.2,9627.9,22.5,6300.9,,1731
+Jun-16,Second,2016-06-13,50,MI0116,nereo,blade,37.3,6658.2,8616.3,22.5,6882.3,,1940
+Jun-16,Second,2016-06-13,51,MI0117,nereo,blade,27,8193.3,9726.3,22.5,8435.9,,2065
+Jun-16,Second,2016-06-13,52,MI0118,nereo,blade,37,6586.8,9588.3,22.5,6972.2,,2055
+Jun-16,Second,2016-06-13,53,MI0119,nereo,blade,47,5834.9,11737.1,22.5,6439.8,,1828
+Jun-16,Second,2016-06-13,54,MI0120,nereo,blade,22,8001.5,9537.5,22.5,8256.8,,1812
+Jun-16,Second,2016-06-13,55,MI0121,nereo,blade,30,8513.8,9759,22.5,8765.3,,1746
+Jun-16,North,2016-06-13,60,MI0122,nereo,blade,36,8245.2,18832.7,23,9087.3,,1922
+Jun-16,North,2016-06-13,61,MI0123,nereo,blade,50,8451.7,21648.4,23,9417.4,,1545
+Jun-16,North,2016-06-13,62,MI0124,nereo,blade,64,8240.9,18389.6,23,8966.2,,1918
+Jun-16,North,2016-06-13,63,MI0125,nereo,blade,54,6530.3,14647.2,23,7132.7,,2099
+Jun-16,North,2016-06-13,64,MI0126,nereo,blade,18,8007.2,10534.9,23,8209.7,,1900
+Jun-16,North,2016-06-13,65,MI0127,nereo,blade,28,8235.5,11779.6,23,8504.8,,2021
+Jun-16,North,2016-06-13,66,MI0128,nereo,blade,37,6585.1,12685.9,23,7035.9,,1866
+Jun-16,North,2016-06-13,67,MI0129,nereo,blade,49,5895.1,12741,23,6412,,2101
+Jun-16,North,2016-06-13,68,MI0130,nereo,blade,59,8051.6,18463.5,23,8808.8,,1789
+Jun-16,North,2016-06-13,69,MI0131,nereo,blade,21,5897.5,8932,23,6132.3,,1776
+Jun-16,North,2016-06-13,70,MI0132,nereo,blade,36,8457.1,17198.7,23,9072.2,,2092
+Jun-16,North,2016-06-13,71,MI0133,nereo,blade,38,5832.2,9730,23,6137.9,,2053
+Jun-16,North,2016-06-13,72,MI0134,nereo,blade,23,7731.6,10522.1,23,7931.8,,1964
+Jun-16,North,2016-06-13,73,MI0135,nereo,blade,27,8181.3,10779.3,23,8382.2,,1971
+Jun-16,Manley,2016-06-15,76,MI0138,nereo,blade,14,6533.6,7749.1,23.5,6638.7,,2078
+Jun-16,Manley,2016-06-15,77,MI0139,nereo,blade,9,8516.7,9994,23.5,8681.1,,2030
+Jun-16,Manley,2016-06-15,78,MI0140,nereo,blade,20,8003.5,10086,23.5,8206.5,,1739
+Jun-16,Manley,2016-06-15,79,MI0141,nereo,blade,22,8237,11219.2,23.5,8498.6,,1800
+Jun-16,Manley,2016-06-15,80,MI0142,nereo,blade,21,8459.7,11441.7,23.5,8697.6,,1725
+Jun-16,Manley,2016-06-15,81,MI0143,nereo,blade,25,8472.5,11688.7,23.5,8730.8,,1726
+Jun-16,Manley,2016-06-15,82,MI0144,nereo,blade,21.5,8190.5,12066,23.5,8569.5,,1735
+Jun-16,Manley,2016-06-15,83,MI0145,nereo,blade,32,8453.7,11656.2,23.5,8742.5,,1841
+Jun-16,Manley,2016-06-15,84,MI0146,nereo,blade,34,6581.5,11032.6,23.5,6920.7,,1782
+Jun-16,Manley,2016-06-15,85,MI0147,nereo,blade,21,8246.2,10869.7,23.5,8462.8,,2085
+Jun-16,Manley,2016-06-15,86,MI0148,nereo,blade,33,5878.5,11087.4,23.5,6326.6,,1999
+Jun-16,Manley,2016-06-15,87,MI0149,nereo,blade,34,8065.6,13352.5,23.5,8480.7,,2132
+Jun-16,Manley,2016-06-15,88,MI0150,nereo,blade,27,8241.4,12721,23.5,8601,,1771
+Jun-16,Manley,2016-06-15,89,MI0151,nereo,blade,19,6589.3,8442.4,23.5,6731.8,,2114
+Jul-16,Second,2016-07-24,90,MI0226,nereo,blade,13,381.1,3106,24,648.9,,2154
+Jul-16,Second,2016-07-24,93,MI0229,nereo,blade,4,355,946.8,24,401.3,,2157
+Jul-16,Second,2016-07-24,94,MI0230,nereo,blade,14,312.5,2524.8,24,NA,flew of,1268
+Jul-16,Second,2016-07-24,95,MI0231,nereo,blade,14,398.5,1787.5,24,524.6,,797
+Jul-16,Second,2016-07-24,99,MI0235,nereo,blade,2,220.6,476.2,24,243.1,,2173
+Jul-16,Second,2016-07-24,100,MI0236,nereo,blade,26,368.3,5479.7,24,774,,2148
+Jul-16,Second,2016-07-24,102,MI0238,nereo,blade,7,286.5,1327.9,24,385.4,,722
+Jul-16,Second,2016-07-24,103,MI0239,nereo,blade,5,350.9,855.3,24,397.4,,2163
+Jul-16,Second,2016-07-24,104,MI0240,nereo,blade,11,369.5,1515,24,467.2,,2167
+Jul-16,Second,2016-07-24,105,MI0241,nereo,blade,5,358.7,705.2,24,NA,flew off,759
+Jul-16,Manley,2016-07-25,106,MI0242,nereo,blade,18,396.3,3309.3,26,651.5,,2142
+Jul-16,Manley,2016-07-25,107,MI0243,nereo,blade,20,377.8,3599.5,26,637.5,,2064
+Jul-16,Manley,2016-07-25,108,MI0244,nereo,blade,10,292.9,966.9,26,351.5,,2140
+Jul-16,Manley,2016-07-25,110,MI0246,nereo,blade,9,317.5,1256.5,26,402.3,,2159
+Jul-16,Manley,2016-07-25,111,MI0247,nereo,blade,14,410.7,2938.5,26,NA,flew off,776
+Jul-16,Manley,2016-07-25,112,MI0248,nereo,blade,7,350,970.5,26,397.8,,2143
+Jul-16,Manley,2016-07-25,113,MI0249,nereo,blade,16,329.7,2716.9,26,542.8,,721
+Jul-16,Manley,2016-07-25,114,MI0250,nereo,blade,11,425.7,1676.8,26,535,,729
+Jul-16,Manley,2016-07-25,115,MI0251,nereo,blade,5,417.6,980.8,26,458.4,,2182
+Jul-16,Manley,2016-07-25,116,MI0252,nereo,blade,26,425.4,3768.6,26,733.8,,2153
+Jul-16,Manley,2016-07-25,117,MI0253,nereo,blade,2,255.9,426,26,271.2,,2170
+Jul-16,Manley,2016-07-25,118,MI0254,nereo,blade,15,423,2787.8,26,602,,2190
+Jul-16,Manley,2016-07-25,119,MI0255,nereo,blade,13,430,2225.6,26,580.3,,2144
+Jul-16,Manley,2016-07-25,120,MI0256,nereo,blade,9,305.3,1548.4,26,409.3,,2192
+Jul-16,Manley,2016-07-25,121,MI0257,nereo,blade,15,385.9,3103.9,26,634.3,,2165
+Jul-16,North,2016-07-26,122,MI0258,nereo,blade,12,307.3,1439,28,387.7,,1834
+Jul-16,North,2016-07-26,123,MI0259,nereo,blade,11,344.4,2072.8,28,481.9,,1787
+Jul-16,North,2016-07-26,125,MI0261,nereo,blade,8,359.1,1126.1,28,412.3,,1872
+Jul-16,North,2016-07-26,126,MI0262,nereo,blade,20,394.5,4823.8,28,748.5,,1892
+Jul-16,North,2016-07-26,127,MI0263,nereo,blade,18,326.2,2285.7,28,469.6,,1826
+Jul-16,North,2016-07-26,128,MI0264,nereo,blade,7,398.9,1247.8,28,479.1,,2145
+Jul-16,North,2016-07-26,129,MI0265,nereo,blade,9,282,1321.3,28,364.7,,853
+Jul-16,North,2016-07-26,130,MI0266,nereo,blade,6,397.4,1719.5,28,495.7,,336
+Jul-16,North,2016-07-26,131,MI0267,nereo,blade,9,246.8,1334,28,321.9,,1986
+Jul-16,North,2016-07-26,132,MI0268,nereo,blade,11,307.1,1734.2,28,406.8,,2027
+Jul-16,North,2016-07-26,133,MI0269,nereo,blade,13,452.1,4555.8,28,767.8,,1924
+Jul-16,North,2016-07-26,134,MI0270,nereo,blade,14,426.6,5416,28,842.2,,2042
+Jul-16,North,2016-07-26,135,MI0271,nereo,blade,7,386.6,1199.5,28,451,,335
+Jul-16,North,2016-07-26,136,MI0272,nereo,blade,7,333.5,1357.7,28,408.2,,1737
+Jul-16,North,2016-07-26,137,MI0273,nereo,blade,28,399.6,12277.7,28,1404.6,,1723
+Aug-16,Second,2016-08-11,139,MI0275,nereo,blade,10,272.4,870.3,24,324.9,harvested plants,NA
+Aug-16,Second,2016-08-11,140,MI0276,nereo,blade,10,263.7,1103.4,24,347.8,harvested plants,NA
+Aug-16,Second,2016-08-11,141,MI0277,nereo,blade,10,333.8,1068.9,24,393.1,harvested plants,NA
+Aug-16,Second,2016-08-11,142,MI0278,nereo,blade,4,299.8,817.1,24,334.7,harvested plants,NA
+Aug-16,Second,2016-08-11,143,MI0279,nereo,blade,11,285.6,971.6,24,341.5,harvested plants,NA
+Aug-16,Second,2016-08-11,144,MI0280,nereo,blade,10,268.1,753.3,24,304.7,harvested plants,NA
+Aug-16,Second,2016-08-11,145,MI0281,nereo,blade,8,358,1110.1,24,419.6,harvested plants,NA
+Aug-16,Second,2016-08-11,146,MI0282,nereo,blade,8,288.5,1144.4,24,344.6,harvested plants,NA
+Aug-16,Second,2016-08-11,147,MI0283,nereo,blade,12,371.7,2027,24,489.9,harvested plants,NA
+Aug-16,Second,2016-08-11,148,MI0284,nereo,blade,12.5,376.9,2282,24,534.4,harvested plants,NA
+Aug-16,Second,2016-08-11,149,MI0285,nereo,blade,15,361.6,1554.2,24,538.4,harvested plants,NA
+Aug-16,Second,2016-08-11,150,MI0286,nereo,blade,NA,266.1,1110.9,24,327.2,harvested plants,NA
+Aug-16,Second,2016-08-11,151,MI0287,nereo,blade,6.5,305.7,939.2,24,350.6,harvested plants,NA
+Aug-16,Second,2016-08-11,155,MI0290,nereo,blade,20.5,267.1,2184.2,24,406.2,harvested plants,NA
+Aug-16,Manley,2016-08-13,157,MI0292,nereo,blade,12,295.5,2643.6,24,585.9,harvested plants,NA
+Aug-16,Manley,2016-08-13,158,MI0293,nereo,blade,8,311.7,1557.3,24,411.5,harvested plants,NA
+Aug-16,Manley,2016-08-13,159,MI0294,nereo,blade,12,301.1,2246.6,24,449.7,harvested plants,NA
+Aug-16,Manley,2016-08-13,160,MI0295,nereo,blade,22,327.7,5311.3,24,678,harvested plants,NA
+Aug-16,Manley,2016-08-13,161,MI0296,nereo,blade,5,266.7,1279.4,24,352.2,harvested plants,NA
+Aug-16,Manley,2016-08-13,162,MI0297,nereo,blade,12,288.6,3258.2,24,557.5,harvested plants,NA
+Aug-16,Manley,2016-08-13,163,MI0298,nereo,blade,20,779.3,5909.5,24,1206,harvested plants,NA
+Aug-16,Manley,2016-08-13,164,MI0299,nereo,blade,6,241.8,842.5,24,293.3,harvested plants,NA
+Aug-16,Manley,2016-08-13,165,MI0300,nereo,blade,9,282,1257.4,24,360.8,harvested plants,NA
+Aug-16,Manley,2016-08-13,166,MI0301,nereo,blade,11,332.3,2282.8,24,497.3,harvested plants,NA
+Aug-16,North,2016-08-14,167,MI0302,nereo,blade,26,901.8,7858.6,22,1504.8,harvested plants,NA
+Aug-16,North,2016-08-14,168,MI0303,nereo,blade,24,763.4,7415.1,22,1251.3,harvested plants,NA
+Aug-16,North,2016-08-14,169,MI0304,nereo,blade,37,776.1,10410.8,22,1434.3,harvested plants,NA
+Aug-16,North,2016-08-14,170,MI0305,nereo,blade,19,895.7,6461.2,22,1331.6,harvested plants,NA
+Aug-16,North,2016-08-14,171,MI0306,nereo,blade,30,598.7,12354.7,22,1442.2,harvested plants,NA
+Aug-16,North,2016-08-14,172,MI0307,nereo,blade,25,677.7,7763.2,22,1139.7,harvested plants,NA
+Aug-16,North,2016-08-14,173,MI0308,nereo,blade,62,697.6,22224.5,22,2282.9,harvested plants,NA
+Aug-16,North,2016-08-14,174,MI0309,nereo,blade,27,631.1,8569.6,22,1237.8,harvested plants,NA
+Aug-16,North,2016-08-14,175,MI0310,nereo,blade,22,584.2,8492.5,22,1253.9,harvested plants,NA
+Aug-16,North,2016-08-14,176,MI0311,nereo,blade,45,546.6,10166.2,22,1195.5,harvested plants,NA
+Aug-16,Second,2016-08-10,138,NA,nereo,stipe,5,305.6,10344.3,35,1136.6,harvested plants,NA
+Aug-16,Second,2016-08-10,139,NA,nereo,stipe,5,306.2,10063.3,35,1001,harvested plants,NA
+Aug-16,Second,2016-08-10,140,NA,nereo,stipe,5,268.2,6554.4,35,762.7,harvested plants,NA
+Aug-16,Second,2016-08-10,141,NA,nereo,stipe,5,306.5,6989.9,35,NA,"harvested plants, dry sample flew off",NA
+Aug-16,Second,2016-08-10,142,NA,nereo,stipe,5,382.3,16054.4,35,1423.7,harvested plants,NA
+Aug-16,Second,2016-08-10,143,NA,nereo,stipe,5,250.9,22328.9,35,2136.5,harvested plants,NA
+Aug-16,Second,2016-08-10,144,NA,nereo,stipe,5,339.4,5935.9,35,752.3,harvested plants,NA
+Aug-16,Second,2016-08-10,145,NA,nereo,stipe,5,287.5,4315.5,35,611.9,harvested plants,NA
+Aug-16,Second,2016-08-10,146,NA,nereo,stipe,5,240.8,4787.8,35,562.2,harvested plants,NA
+Aug-16,Second,2016-08-10,147,NA,nereo,stipe,5,579.7,10000.1,35,1349.9,harvested plants,NA
+Aug-16,Second,2016-08-10,148,NA,nereo,stipe,5,303,5878.9,35,772,harvested plants,NA
+Aug-16,Second,2016-08-10,153,NA,nereo,stipe,5,398.1,10936.5,35,1173.4,harvested plants,NA
+Aug-16,Second,2016-08-10,149,NA,nereo,stipe,5,330.4,7903.8,35,908.1,harvested plants,NA
+Aug-16,Second,2016-08-10,150,NA,nereo,stipe,5,334.6,14062.7,35,1454.5,harvested plants,NA
+Aug-16,Second,2016-08-10,151,NA,nereo,stipe,5,282.5,5239.6,35,642.3,harvested plants,NA
+Aug-16,Second,2016-08-10,152,NA,nereo,stipe,5,538,7667.7,35,1137.5,harvested plants,NA
+Aug-16,Second,2016-08-10,155,NA,nereo,stipe,5,470.4,4882.8,35,795.1,harvested plants,NA
+Aug-16,Second,2016-08-10,156,NA,nereo,stipe,5,282,4374.1,35,617.1,harvested plants,NA
+Aug-16,Manley,2016-08-13,157,NA,nereo,stipe,5,806.5,4912.3,38,1188.4,harvested plants,NA
+Aug-16,Manley,2016-08-13,158,NA,nereo,stipe,5,784.6,18609.9,38,2192.2,harvested plants,NA
+Aug-16,Manley,2016-08-13,159,NA,nereo,stipe,5,742.8,8733.7,38,1471.1,harvested plants,NA
+Aug-16,Manley,2016-08-13,160,NA,nereo,stipe,5,778.6,13418.2,38,1836,harvested plants,NA
+Aug-16,Manley,2016-08-13,161,NA,nereo,stipe,5,821.7,18195.9,38,2083.3,harvested plants,NA
+Aug-16,Manley,2016-08-13,162,NA,nereo,stipe,5,842.1,10126.2,38,1826,harvested plants,NA
+Aug-16,Manley,2016-08-13,163,NA,nereo,stipe,5,831,9225.7,38,1615.5,harvested plants,NA
+Aug-16,Manley,2016-08-13,164,NA,nereo,stipe,5,771.4,9609,38,1442.7,harvested plants,NA
+Aug-16,Manley,2016-08-13,165,NA,nereo,stipe,5,767.3,6990.7,38,1239.7,harvested plants,NA
+Aug-16,Manley,2016-08-13,166,NA,nereo,stipe,5,799.7,7334.3,38,1308.3,harvested plants,NA
+Aug-16,North,2016-08-14,167,NA,nereo,stipe,5,1081.6,11683,22,2216.7,harvested plants,NA
+Aug-16,North,2016-08-15,168,NA,nereo,stipe,5,629.4,13580,22,1722.2,harvested plants,NA
+Aug-16,North,2016-08-16,169,NA,nereo,stipe,5,892.4,6683.4,22,1393.1,harvested plants,NA
+Aug-16,North,2016-08-17,170,NA,nereo,stipe,5,969.2,13534.4,22,2177.3,harvested plants,NA
+Aug-16,North,2016-08-18,171,NA,nereo,stipe,5,860.9,13736.9,22,2285.3,harvested plants,NA
+Aug-16,North,2016-08-19,172,NA,nereo,stipe,5,537.2,8502,22,1149.4,harvested plants,NA
+Aug-16,North,2016-08-20,173,NA,nereo,stipe,5,451.5,11916.7,22,1728.1,harvested plants,NA
+Aug-16,North,2016-08-21,174,NA,nereo,stipe,5,718,20352.9,22,2855,harvested plants,NA
+Aug-16,North,2016-08-22,175,NA,nereo,stipe,5,524.2,15351.4,22,2460,harvested plants,NA
+Aug-16,North,2016-08-23,176,NA,nereo,stipe,5,538.6,16845.7,22,3725.9,harvested plants,NA
+Sep-16,North,2016-09-09,177,MI0397,nereo,blade,19.5,8007.5,13871.1,48,8527.9,,2013
+Sep-16,North,2016-09-09,178,MI0398,nereo,blade,17,8245.5,14390.3,48,8812.1,,2497
+Sep-16,North,2016-09-09,179,MI0399,nereo,blade,44.3,6532,19553.3,48,7658.9,,1778
+Sep-16,North,2016-09-09,180,MI0400,nereo,blade,17.3,8695.1,12249.5,48,8964,,2501
+Sep-16,North,2016-09-09,181,MI0401,nereo,blade,47.5,8297.9,22728.9,48,9501.1,,1807
+Sep-16,North,2016-09-09,182,MI0402,nereo,blade,44.3,9471.8,23179.5,48,9704.7,,1761
+Sep-16,North,2016-09-09,183,MI0403,nereo,blade,17.8,8516.8,12806,48,8882.7,,2128
+Sep-16,North,2016-09-09,184,MI0404,nereo,blade,34.5,8002.9,19748.7,48,9006.6,,1721
+Sep-16,North,2016-09-09,185,MI0405,nereo,blade,12.7,5838,8556.2,48,6044.8,,1973
+Sep-16,North,2016-09-09,186,MI0406,nereo,blade,28.7,8191,14345,48,8665.7,,1710
+Sep-16,North,2016-09-09,187,MI0407,nereo,blade,30.9,8241.4,16508.7,48,8881.1,,1755
+Sep-16,North,2016-09-09,188,MI0408,nereo,blade,21.9,8194.3,14217,48,8738.7,,1727
+Sep-16,North,2016-09-09,189,MI0409,nereo,blade,87.3,8694.8,46723.7,48,12089.3,,2519
+Sep-16,North,2016-09-09,190,MI0410,nereo,blade,34.4,6535.5,17071.2,48,7574.3,,2050
+Sep-16,North,2016-09-09,191,MI0411,nereo,blade,24.1,6820.1,10229.9,48,7072.7,,1685
+Sep-16,Manley,2016-09-10,192,MI0412,nereo,blade,1.6,8692.6,8928.9,48,8722.3,,2428
+Sep-16,Manley,2016-09-10,193,MI0413,nereo,blade,0.7,8235.1,8324.4,48,8244.6,,2482
+Sep-16,Manley,2016-09-10,194,MI0414,nereo,blade,15.4,8235.5,9716.2,48,8356.4,,1960
+Sep-16,Manley,2016-09-10,195,MI0415,nereo,blade,18.1,8458.5,11297.1,48,8689.3,,1868
+Sep-16,Manley,2016-09-10,196,MI0416,nereo,blade,2.6,8064.1,8578.6,48,8105.4,,2026
+Sep-16,Manley,2016-09-10,197,MI0417,nereo,blade,3.7,8183,8800.2,48,8232.2,,2015
+Sep-16,Manley,2016-09-10,198,MI0418,nereo,blade,6.4,5858,6628.3,48,5920.6,,1890
+Sep-16,Manley,2016-09-10,199,MI0419,nereo,blade,10.5,8524.2,9741.3,48,8629.2,,2493
+Sep-16,Manley,2016-09-10,200,MI0420,nereo,blade,1,8052.1,8185.8,48,8065.4,,2088
+Sep-16,Manley,2016-09-10,201,MI0421,nereo,blade,7.8,6568.3,7566.2,48,6651.8,,2016
+Sep-16,Manley,2016-09-10,202,MI0422,nereo,blade,20.8,8067.6,12020.8,48,8359.1,,1993
+Sep-16,Manley,2016-09-10,203,MI0423,nereo,blade,22,8310,11437.6,48,8546.9,,1752
+Sep-16,Second,2016-09-10,204,MI0424,nereo,blade,7.2,8201.2,9208.9,48,8282.6,,1699
+Sep-16,Second,2016-09-10,205,MI0425,nereo,blade,30.7,8530.8,12982.1,48,8899.9,,1998
+Sep-16,Second,2016-09-10,206,MI0426,nereo,blade,25.8,5869.6,15948.3,48,6856.9,,2504
+Sep-16,Second,2016-09-10,207,MI0427,nereo,blade,6.9,7732,9382,48,7904.5,,1875
+Sep-16,Second,2016-09-10,208,MI0428,nereo,blade,4.3,8191.5,9241.5,48,8273.6,,1853
+Sep-16,Second,2016-09-10,209,MI0429,nereo,blade,2,6585.3,6805.1,48,6600.8,,1985
+Sep-16,Second,2016-09-10,210,MI0430,nereo,blade,26.6,8459.9,16409.8,48,9109.6,,1827
+Sep-16,Second,2016-09-10,211,MI0431,nereo,blade,13.3,8690,10705.1,48,8874.3,,1956
+Sep-16,Second,2016-09-10,212,MI0432,nereo,blade,3.3,8245.5,8955.7,48,8309.3,,1976
+Sep-16,Second,2016-09-10,213,MI0433,nereo,blade,18.1,6518.5,8807.1,48,6700.4,,2111
+Sep-16,Second,2016-09-10,214,MI0434,nereo,blade,6.4,7898.2,8923.7,48,8073.9,,1958
+Sep-16,Second,2016-09-10,215,MI0435,nereo,blade,33.6,5832.1,16169,48,6999.2,,2097
+Nov-16,North,2016-11-18,216,MI0582,nereo,blade,24.2,1177,7254.2,48,1699.6,,1933
+Nov-16,North,2016-11-18,217,MI0583,nereo,blade,1,1130.4,1462.5,48,1159.3,,2484
+Nov-16,North,2016-11-18,218,MI0584,nereo,blade,40.5,1377.3,11076.8,48,2235.3,,1745
+Nov-16,North,2016-11-18,219,MI0585,nereo,blade,37.4,1414.6,7970,48,2002.5,,1681
+Nov-16,North,2016-11-18,220,MI0586,nereo,blade,10.1,1473.7,3515.4,48,1649.3,,2002
+Nov-16,North,2016-11-18,221,MI0587,nereo,blade,35.6,1638.9,9312.2,48,2273.2,,1756
+Nov-16,North,2016-11-18,222,MI0588,nereo,blade,23.7,1640.6,6722.8,48,2054.6,,1807.1
+Nov-16,North,2016-11-18,223,MI0589,nereo,blade,22,1286.9,6211.2,48,1680.5,,1945
+Nov-16,North,2016-11-18,224,MI0590,nereo,blade,11.8,1081.9,2686.3,48,1227.5,,1685.1
+Nov-16,North,2016-11-18,225,MI0591,nereo,blade,59.9,1048.8,17805.5,48,2540.9,,2488
+Nov-16,Second,2016-11-20,226,MI0621,nereo,blade,34.4,1071.4,7823.1,48,1611.5,,1997
+Nov-16,Second,2016-11-20,227,MI0622,nereo,blade,35.8,1010.1,13261.3,48,2089.6,,2494
+Nov-16,Second,2016-11-20,228,MI0623,nereo,blade,11.2,1168.7,3648.9,48,1354.7,,1704
+Nov-16,Second,2016-11-20,229,MI0624,nereo,blade,21.5,1127,4329.7,48,1400.4,,2110
+Nov-16,Second,2016-11-20,230,MI0625,nereo,blade,8.4,926.4,4171.6,48,1196.2,,1816
+Nov-16,Second,2016-11-20,231,MI0626,nereo,blade,39.4,1028.9,10906.9,48,1828.2,,1814
+Nov-16,Second,2016-11-20,232,MI0627,nereo,blade,62.5,878.3,20894.4,48,2391.9,,1801
+Nov-16,Second,2016-11-20,233,MI0628,nereo,blade,37.1,902.7,10854.9,48,1810.9,,1759
+Nov-16,Second,2016-11-20,234,MI0629,nereo,blade,52.8,821.5,19590.5,48,2370,,1718
+May-17,Manley,2017-05-18,236,MI0721,nereo,blade,54.7,850.1,8127.2,48,1415,uncertainty around tag number,2083
+May-17,Manley,2017-05-18,237,MI0722,nereo,blade,13.2,777.8,1765,48,861.9,uncertainty around tag number,1851
+May-17,Manley,2017-05-18,238,MI0723,nereo,blade,26.6,651.1,3816.2,48,918.6,uncertainty around tag number,1861
+May-17,Manley,2017-05-18,239,MI0724,nereo,blade,52.6,640.1,9334.5,48,1541.3,uncertainty around tag number,1913
+May-17,Manley,2017-05-18,240,MI0725,nereo,blade,26.4,956.8,3035.9,48,1145.6,uncertainty around tag number,2475
+May-17,Manley,2017-05-18,241,MI0726,nereo,blade,30.6,689.7,4733.5,48,986,uncertainty around tag number,1795
+May-17,Second,2017-05-18,242,MI0727,nereo,blade,31.7,667.8,3894.7,48,928,uncertainty around tag number,2066
+May-17,Second,2017-05-18,243,MI0728,nereo,blade,28.2,901.2,5213.7,48,1287.5,uncertainty around tag number,1794
+May-17,Second,2017-05-18,244,MI0729,nereo,blade,13.2,793.9,1678.5,48,884.6,uncertainty around tag number,1858
+May-17,Second,2017-05-18,245,MI0730,nereo,blade,24.5,740,2943.3,48,927.7,uncertainty around tag number,2001
+May-17,Second,2017-05-18,246,MI0731,nereo,blade,23.3,664,2470.2,48,863.6,uncertainty around tag number,2134
+May-17,Second,2017-05-18,247,MI0732,nereo,blade,25.5,733.2,4693.2,48,1037,uncertainty around tag number,1932
+May-17,North,2017-05-18,248,MI0733,nereo,blade,30,1057.4,3156.9,48,1307.8,uncertainty around tag number,1946
+May-17,North,2017-05-18,249,MI0734,nereo,blade,50.5,760.9,5173.6,48,1145.3,uncertainty around tag number,1791
+May-17,North,2017-05-18,250,MI0735,nereo,blade,19,871.5,2768,48,1029.7,uncertainty around tag number,2064
+May-17,North,2017-05-18,251,MI0736,nereo,blade,15.8,522.7,1970.1,48,642.7,uncertainty around tag number,1914
+Jul-17,Manley,2017-07-14,NA,NA,nereo,stipe,5,427.5,1844,24,569.1,harvested plants,NA
+Jul-17,Manley,2017-07-14,NA,MI0882,nereo,blade,40,597.9,5059.4,24,984.1,harvested plants,NA
+Jul-17,Manley,2017-07-14,NA,NA,nereo,stipe,5,538.4,3244.2,24,808.9,harvested plants,NA
+Jul-17,Manley,2017-07-14,NA,MI0883,nereo,blade,34,616.1,5349.3,24,1062.4,harvested plants,NA
+Jul-17,Manley,2017-07-14,NA,NA,nereo,stipe,5,501.9,1894.1,24,636.5,harvested plants,NA
+Jul-17,Manley,2017-07-14,NA,MI0884,nereo,blade,45,464,7740.2,24,1060.3,harvested plants,NA
+Jul-17,Manley,2017-07-14,NA,NA,nereo,stipe,5,524.6,34929,24,880.9,harvested plants,NA
+Jul-17,Manley,2017-07-14,NA,MI0885,nereo,blade,60,495.3,17644.3,24,2034.6,harvested plants,NA
+Jul-17,Manley,2017-07-14,NA,NA,nereo,stipe,5,452,2762.7,24,751.6,harvested plants,NA
+Jul-17,Manley,2017-07-14,NA,MI0886,nereo,blade,40,518.5,9295.5,24,1410.5,harvested plants,NA
+Jul-17,Manley,2017-07-14,NA,NA,nereo,stipe,5,488,4298.2,24,1073.5,harvested plants,NA
+Jul-17,Manley,2017-07-14,NA,MI0887,nereo,blade,55,610,24053.2,24,2684.1,harvested plants,NA
+Jul-17,North,2017-07-14,NA,MI0906,nereo,blade,14,409.4,2758,24,618.4,harvested plants,NA
+Jul-17,North,2017-07-14,NA,NA,nereo,stipe,5,364.4,2554,24,572.5,harvested plants,NA
+Jul-17,North,2017-07-14,NA,MI0907,nereo,blade,2,398,642.7,24,423.5,harvested plants,NA
+Jul-17,North,2017-07-14,NA,NA,nereo,stipe,5,421.7,1479.2,24,522,harvested plants,NA
+Jul-17,North,2017-07-14,NA,MI0908,nereo,blade,24.2,521,5881.9,24,1030,harvested plants,NA
+Jul-17,North,2017-07-14,NA,NA,nereo,stipe,5,411.6,2748.4,24,665.3,harvested plants,NA
+Jul-17,North,2017-07-14,NA,MI0909,nereo,blade,42,451.2,7325.4,24,1124.5,harvested plants,NA
+Jul-17,North,2017-07-14,NA,NA,nereo,stipe,5,350.8,2026.4,24,501.7,harvested plants,NA
+Jul-17,North,2017-07-14,NA,MI0910,nereo,blade,NA,445.7,9640,24,1870.1,"harvested plants, missing length",NA
+Jul-17,North,2017-07-14,NA,NA,nereo,stipe,5,436.8,3815,24,799.6,harvested plants,NA
+Jul-17,North,2017-07-14,NA,MI0911,nereo,blade,NA,481.6,6393.5,24,1794.6,"harvested plants, missing length",NA
+Jul-17,North,2017-07-14,NA,NA,nereo,stipe,5,320,1933.7,24,483.6,harvested plants,NA
+Jul-17,Second,2017-07-16,NA,MI0900,nereo,blade,5,544.5,6139.8,24,1059.1,harvested plants,NA
+Jul-17,Second,2017-07-16,NA,NA,nereo,stipe,27,461.6,1650.4,24,615.4,harvested plants,NA
+Jul-17,Second,2017-07-16,NA,MI0901,nereo,blade,40,392.6,8664.5,24,1138.6,harvested plants,NA
+Jul-17,Second,2017-07-16,NA,NA,nereo,stipe,5,355.6,2399.1,24,564.8,harvested plants,NA
+Jul-17,Second,2017-07-16,NA,MI0902,nereo,blade,26.6,451.8,4777.1,24,793.1,harvested plants,NA
+Jul-17,Second,2017-07-16,NA,NA,nereo,stipe,5,484.5,1574.6,24,595.7,harvested plants,NA
+Jul-17,Second,2017-07-16,NA,MI0903,nereo,blade,22,406,4481.8,24,726.7,harvested plants,NA
+Jul-17,Second,2017-07-16,NA,NA,nereo,stipe,5,323.9,1078.2,24,396.7,harvested plants,NA
+Jul-17,Second,2017-07-16,NA,MI0904,nereo,blade,57,547.9,12899.9,24,1717.3,harvested plants,NA
+Jul-17,Second,2017-07-16,NA,NA,nereo,stipe,5,423.1,2832,24,688,harvested plants,NA
+Jul-17,Second,2017-07-16,NA,MI0905,nereo,blade,23,449,3882.3,24,717.7,harvested plants,NA
+Jul-17,Second,2017-07-16,NA,NA,nereo,stipe,5,469.9,1364.5,24,560.8,harvested plants,NA
+Jul-19,Second,2019-07-02,1,NA,nereo,stipe,5,7119.5,12369.7,24,7805.6,,NA
+Jul-19,Second,2019-07-02,2,NA,nereo,stipe,5,7163.1,8726.1,24,7310.2,,NA
+Jul-19,Second,2019-07-02,3,NA,nereo,stipe,5,7939.1,10738.3,24,8157.7,,NA
+Jul-19,Second,2019-07-02,4,NA,nereo,stipe,5,7688.8,10270.7,24,7837.2,,NA
+Jul-19,Second,2019-07-02,5,NA,nereo,stipe,5,7675.1,21413.6,24,8533.4,,NA
+Jul-19,Second,2019-07-02,6,NA,nereo,stipe,5,7119.2,12470.5,24,7444.2,,NA
+Jul-19,Second,2019-07-02,7,NA,nereo,stipe,5,7917.3,15282.2,24,8335.9,,NA
+Jul-19,Second,2019-07-02,8,NA,nereo,stipe,5,7858,49299.9,24,10200.7,,NA
+Jul-19,Second,2019-07-02,9,NA,nereo,stipe,5,7998,22508.7,24,8823.5,,NA
+Jul-19,Second,2019-07-02,10,NA,nereo,stipe,5,9728.1,15884.3,24,10130.8,,NA
+Jul-19,Second,2019-07-02,11,NA,nereo,blade,20,7689.5,15086.4,24,8393.5,,NA
+Jul-19,Second,2019-07-02,12,NA,nereo,blade,20,7852.7,16502.5,24,8561.3,,NA
+Jul-19,Second,2019-07-02,13,MI1067,nereo,blade,20,7207.3,13228.3,24,7783.5,,NA
+Jul-19,Second,2019-07-02,14,MI1066,nereo,blade,20,7228.3,9685,24,7410.1,,NA
+Jul-19,Second,2019-07-02,15,MI1065,nereo,blade,20,7542.4,12614.7,24,7927.6,,NA
+Jul-19,Second,2019-07-02,16,MI1064,nereo,blade,20,7685,10862,24,7935.3,,NA
+Jul-19,Second,2019-07-02,17,MI1063,nereo,blade,20,7366.5,12342.3,24,7763.9,,NA
+Jul-19,Second,2019-07-02,18,MI1062,nereo,blade,20,7219.1,11280.3,24,7522.5,,NA
+Jul-19,Second,2019-07-02,19,NA,nereo,blade,20,7817.6,17985.6,24,8734,,NA
+Jul-19,Second,2019-07-02,20,NA,nereo,blade,20,10088.2,15152.6,24,10484.5,,NA
+Jul-19,Manley,2019-07-03,21,NA,nereo,blade,20,7099.2,NA -11442,24,7553.9,wrong wet weight?,NA
+Jul-19,Manley,2019-07-03,23,NA,nereo,blade,20,7116.2,NA - 11108.2,24,11442,wrong wet weight?,NA
+Jul-19,Manley,2019-07-03,24,MI1058,nereo,blade,20,7946.4,NA- 13493.9,24,11108,wrong wet weight?,NA
+Jul-19,Manley,2019-07-03,25,NA,nereo,blade,20,10191.5,NA - 12842.2,24,13493.9,wrong wet weight?,NA
+Jul-19,Manley,2019-07-03,26,MI1061,nereo,blade,20,7667,NA - 12393,24,12842.2,wrong wet weight?,NA
+Jul-19,Manley,2019-07-03,27,MI1060,nereo,blade,20,7691.7,NA - 12513.3,24,12393,wrong wet weight?,NA
+Jul-19,Manley,2019-07-03,28,MI1056,nereo,blade,20,7105,NA - 9088.1,24,12513.3,wrong wet weight?,NA
+Jul-19,Manley,2019-07-03,29,MI1059,nereo,blade,20,7641.1,NA - 10969.2,24,9088.1,wrong wet weight?,NA
+Jul-19,Manley,2019-07-03,30,MI1057,nereo,blade,20,7164.8,10038.5,24,10969.2,wrong wet weight?,NA
+Jul-19,Manley,2019-07-03,31,NA,nereo,blade,20,7195,8948.1,24,10038.5,wrong wet weight?,NA
+Jul-19,Manley,2019-07-03,32,NA,nereo,stipe,5,7818.8,27903,24,8997,,NA
+Jul-19,Manley,2019-07-03,33,NA,nereo,stipe,5,7696,18320.2,24,8344,,NA
+Jul-19,Manley,2019-07-03,34,NA,nereo,stipe,5,7934.2,8926.6,24,8015.8,,NA
+Jul-19,Manley,2019-07-03,35,NA,nereo,stipe,5,7830,NA,24,8194.3,tray_wet was 1443.4,NA
+Jul-19,Manley,2019-07-03,36,NA,nereo,stipe,5,7671.6,14086.6,24,8048.7,,NA
+Jul-19,Manley,2019-07-03,37,NA,nereo,stipe,5,7669.2,25061.8,24,8577,,NA
+Jul-19,Manley,2019-07-03,38,NA,nereo,stipe,5,7155.2,24219.8,24,8088.4,,NA
+Jul-19,Manley,2019-07-03,39,NA,nereo,stipe,5,7244.1,16739,24,7794.2,,NA
+Jul-19,Manley,2019-07-03,40,NA,nereo,stipe,5,7677.9,9183.2,24,7814.7,,NA
+Jul-19,Manley,2019-07-03,41,NA,nereo,stipe,5,7928.3,12120,24,8189.3,,NA
+Jul-19,North,2019-07-02,42,NA,nereo,stipe,5,7357.5,11029.5,24,7708.6,,NA
+Jul-19,North,2019-07-02,43,NA,nereo,stipe,5,7853.8,16959,24,8410.7,,NA
+Jul-19,North,2019-07-02,44,NA,nereo,stipe,5,7853.8,28184.7,24,8889.3,,NA
+Jul-19,North,2019-07-02,45,NA,nereo,stipe,5,7827.3,38798.2,24,10028.8,,NA
+Jul-19,North,2019-07-02,46,NA,nereo,stipe,5,7819,11772.1,24,NA,tray_dry was 7567.2,NA
+Jul-19,North,2019-07-02,47,NA,nereo,stipe,5,7108.3,22462.8,24,9226.9,,NA
+Jul-19,North,2019-07-02,48,NA,nereo,stipe,5,7702.4,12370.6,24,10414.8,,NA
+Jul-19,North,2019-07-02,49,NA,nereo,stipe,5,10209.1,15194.5,24,NA,tray_dry was 8662,NA
+Jul-19,North,2019-07-02,50,NA,nereo,stipe,5,7988.3,70933.3,24,11874.7,,NA
+Jul-19,North,2019-07-02,51,NA,nereo,stipe,5,7104.8,7906.4,24,7170.9,,NA
+Jul-19,North,2019-07-02,52,NA,nereo,blade,20,7917.5,14260.9,24,8399.3,,NA
+Jul-19,North,2019-07-02,53,NA,nereo,blade,20,7699.6,16639,24,8351.4,,NA
+Jul-19,North,2019-07-02,54,NA,nereo,blade,20,7113.4,27411.3,24,8558.2,,NA
+Jul-19,North,2019-07-02,55,MI1068,nereo,blade,20,7929.4,20016.5,24,8913.1,,NA
+Jul-19,North,2019-07-02,56,MI1069,nereo,blade,20,7120,14994.2,24,7788,,NA
+Jul-19,North,2019-07-02,57,MI1070,nereo,blade,20,7706.8,12085.8,24,8024.4,,NA
+Jul-19,North,2019-07-02,58,MI1071,nereo,blade,20,7703.1,12441.7,24,8038.4,,NA
+Jul-19,North,2019-07-02,59,MI1072,nereo,blade,20,10115.4,13863.1,24,10384.9,,NA
+Jul-19,North,2019-07-02,60,MI1073,nereo,blade,20,7696.4,18477.5,24,8499,,NA
+Jul-19,North,2019-07-02,61,NA,nereo,blade,20,7701.5,16823.9,24,8382.8,,NA
+Jul-19,Triquetta,2019-07-07,68,MI1077,nereo,blade,20,9719.1,12013.1,24,9961.2,,NA
+Jul-19,Triquetta,2019-07-07,64,NA,nereo,blade,20,7855,9962,24,8047.2,,NA
+Jul-19,Triquetta,2019-07-07,66,MI1075,nereo,blade,20,7694,9553.3,24,7896.1,,NA
+Jul-19,Triquetta,2019-07-07,69,MI1078,nereo,blade,20,7556.1,11550.5,24,8005.4,,NA
+Jul-19,Triquetta,2019-07-07,67,MI1076,nereo,blade,20,7932.2,11500,24,8285.2,,NA
+Jul-19,Triquetta,2019-07-07,65,MI1074,nereo,blade,20,10227.9,13460.5,24,10552.9,,NA
+Jul-19,Triquetta,2019-07-07,62,NA,nereo,blade,20,7823.7,9367.6,24,8012.2,,NA
+Jul-19,Triquetta,2019-07-07,63,NA,nereo,blade,20,7948.9,10585.4,24,8186.1,,NA
+Jul-19,Triquetta,2019-07-07,71,MI1079,nereo,blade,20,7259.6,8455.2,24,7372.8,,NA
+Jul-19,Triquetta,2019-07-07,79,NA,nereo,blade,20,10102.6,12051.3,24,10292,,NA
+Jul-19,Triquetta,2019-07-07,70,NA,nereo,blade,20,7701.7,13925.9,24,8334.5,,NA
+Jul-19,Triquetta,2019-07-07,76,NA,nereo,blade,20,7212.5,9050.6,24,7420.6,,NA
+Jul-19,Triquetta,2019-07-07,82,NA,nereo,stipe,5,7352.7,12863.1,24,7737.9,,NA
+Jul-19,Triquetta,2019-07-07,75,NA,nereo,stipe,5,7691.2,10788.9,24,7954,,NA
+Jul-19,Triquetta,2019-07-07,80,NA,nereo,stipe,5,7830.6,11164,24,8333.7,,NA
+Jul-19,Triquetta,2019-07-07,83,NA,nereo,stipe,5,7148.7,8520,24,7267,tray was 71148.7,NA
+Jul-19,Triquetta,2019-07-07,73,NA,nereo,stipe,5,7023.5,9262.8,24,7217.8,,NA
+Jul-19,Triquetta,2019-07-07,74,NA,nereo,stipe,5,7819.6,21692.1,24,8841,,NA
+Jul-19,Triquetta,2019-07-07,72,NA,nereo,stipe,5,8056.3,9245,24,8168.1,,NA
+Jul-19,Triquetta,2019-07-07,81,NA,nereo,stipe,5,7827,18651.8,24,8690.1,,NA
+Jul-19,Triquetta,2019-07-07,78,NA,nereo,stipe,5,7361.4,7945.6,24,7419,,NA
+Jul-19,Triquetta,2019-07-07,77,NA,nereo,stipe,5,2739.9,NA,24,8267.8,tray_wet was 205552.1,NA

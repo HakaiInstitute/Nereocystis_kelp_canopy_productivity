@@ -1,0 +1,91 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
+
+## [v1.3.0] - 2026-01-19
+### Added
+- added new sites 
+- added summer 2022-2025 data to:
+- nereo_size.csv
+- nereo_density.csv 
+- nereo_harvest.csv 
+- nereo_metrics.csv 
+- metrics_long.csv 
+- metrics_rates.csv
+
+### Change
+- Changed the data package title to: Nereocystis kelp canopy productivity data from BC Central Coast, v1.3.0
+- renamed harvest.csv to nereo_harvest.csv
+- renamed wet_dry.csv to nereo_wetdry.csv
+- renamed metrics.csv to nereo_metrics.csv and removed data where only sub-bulb diameter information was collected 
+- created nereo_size.csv for instances where only sub-bulb-diameter is measured 
+- combined density.csv and binned_density.csv into one spreadsheet : nereo_density.csv  
+- updated README document to match changes
+- updated Data_dictionary document to match changes
+- changes “line” variable to “transect” to match other datasets
+
+
+## [v1.2.0] - 2021-09-15
+### Change
+- Changed the data package title to: Nereocystis kelp canopy productivity data from BC Central Coast, v1.2.0
+- added summer 2021 data to:
+- metrics.csv 
+- density.csv 
+- harvest.csv 
+- binned_densities.csv
+- metrics_long.csv 
+- metrics_rates.csv 
+- added the following new sites to protocols, site map and tables:
+- Goldstream
+- Kelpie
+- Lola
+- Mercury
+- Ratatouille
+- Rattenbury
+- Spider
+- Starfish  
+- Owen
+
+## [v1.1.0] - 2020-12-15
+### Change
+- Changed the data package title to: Nereocystis kelp canopy productivity data from BC Central Coast, v1.1.0
+- added summer 2020 data to:
+- metrics.csv 
+- density.csv 
+- harvest.csv 
+- binned_densities.csv
+-added 2 variables (area and dist)
+- metrics_long.csv 
+- metrics_rates.csv 
+- tag_loss.csv
+- New sites (North_tombolo_sparse, North_tombolo_dense)  to protocols site map and tables
+
+
+## [v1.0.0] - 2019-10-15
+### Notes
+- This is the initial release of the Nereocystis kelp canopy productivity data from BC Central Coast, 2016-2019 v1.0.0
+
+### Added 
+- Changelog.txt
+- README.txt
+- LISCENCE.txt
+- Protocols.pdf
+- Data_dictionary.csv
+- metrics.csv 
+- density.csv 
+- harvest.csv 
+- wet_dry.csv 
+- tag_additional.csv 
+- binned_densities.csv
+- metrics_long.csv 
+- metrics_rates.csv 
+- tag_loss.csv 
+- metrics_long.R
+- metrics_rates.R
+- tag_loss.R 
+
+
+
+
+
