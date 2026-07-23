@@ -16,28 +16,18 @@ The nereocystis canopy production dataset is a component of Hakai Institute’s 
  Pontier, O., Burt, J., Okamoto, D., and Hessing-Lewis, M.(2025). Nereocystis kelp canopy productivity data from BC Central Coast, v1.3.0. [Date accesed]. Hakai Institute. https://doi.org/10.21966/d1s2-s530
 ```
 
-
-##Documents
-
-- R scripts:
-Convert raw data (nereo_metrics.csv) into long form (metrics_long.csv) - metrics_long.R
-Calculate rates: blade growth, stipe growth, erosion and blade - metrics_rates.R
-Amalgamate all tagged plants into one dataframe - tag_loss.R
-Estimates biomass per m2 per plot based on morphometrics relationships and density - nereo_biomass_estimates.R
-
-## Resources
-
+# Resources
 - Package Changes: Changelog for additions and changes done to this data package. (Changelog.txt)
 - Description of field survey methods and site information. (Protocols.pdf)
 - Data Dictionary for a description of all variables contained in this package. (Data_dictionary.csv)
-
+  
 # Scripts 
 - Convert raw data (nereo_metrics.csv) into long form (metrics_long.csv) - metrics_long.R
 - Calculate rates: blade growth, stipe growth, erosion and blade - metrics_rates.R
 Amalgamate all tagged plants into one dataframe - tag_loss.R
-- Estimates biomass per m2 per plot based on morphometrics relationships and density - nereo_biomass_estimates.R
 
 # Raw data documents
+- Information related to each individual sites such as gps coordinates (site_metadata.csv)
 - Underwater Nereocystis luetkeana adult (>1m) stipe counts (nereo_density.csv)
 - Underwater N. luetkeana adult sub-bulb diameter (mm) measurements (nereo_size.csv)
 - Additional underwater morphometric measurements taken on N. luetkeana plants in permanent plots inter- and intra-annually including stipe and blade elongation (nereo_metrics.csv) 
@@ -45,14 +35,12 @@ Amalgamate all tagged plants into one dataframe - tag_loss.R
 - Dried N. luetkeana tissue (nereo_wet_dry.csv) 
 - Additional plants tagged for plant loss (tag_additional.csv)
 
-#Compiled data documents:
+# Compiled data documents:
 - Long form version of underwater morphometrics measurement file (metrics_long.csv) 
 - Summarized growth rates (metrics_rates.csv)
 - Amalgamation of all tag data sources (tag_loss.csv)
-- Plot level based summary estimates in regards to biomass (nereo_plot_estimates.csv)
 
-#Link to any associated resources:
-
+# Link to any associated resources:
 - Previous versions are archived [here](https://drive.google.com/drive/u/0/folders/14EWU0zY1prKYkoXglIMxtnjuHt6XyYTa)
 - Data Management Plan
 - CIOOS CKAN record
