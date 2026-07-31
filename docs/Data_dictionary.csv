@@ -11,21 +11,20 @@ nereo_metrics,tag1,"categorical, numeric range",unique number associated with a 
 nereo_metrics,time1,hh:mm (24hour),time at which collection event 1 started.
 nereo_metrics,time1_decimal,numerical,"time1 expressed in decimals, used to calculate rates. "
 nereo_metrics,stipeL1,"numerical, cm",length from the holdfast to halfway through the pneumatocyst (to nearest cm) at T1.
-nereo_metrics,bladeL1,"numerical, cm",average length from pneumatocyst to where the majority of the blades end (in cm).
+nereo_metrics,bladeL1,"numerical, cm",average length from pneumatocyst to where the majority of the blades end (in cm at T1)
 nereo_metrics,Bwidth,"numerical, cm",blade width measured halfway through the length of a randomly selected blade (to nearest 0.5cm).
-nereo_metrics,Psori1,categorical,"proportion of reproductive sori recorded as 0% (0), 0-50% (L ), or 50-100%(H).  "
+nereo_metrics,Psori1,categorical,"proportion of reproductive sori recorded as 0% (0), 0-50% (L ), or 50-100%(H), at T1"
 nereo_metrics,distP1,"numerical, cm","distance from the pneumatocyst to the hole punch on the selected outer blade (to nearest 0.5cm), at T1. "
 nereo_metrics,obladeL1,"numerical, cm",length of selected outer blade from the pneumatocyst to the end of blade (to nearest 0.5cm) at T1.
-nereo_metrics,presence1,categorical,"refers to plants tagged for loss estimates, present (y), absent (n) at T1.  "
+nereo_metrics,Bcount1,integer,number of blades attached to pneumatocyst and longer than 10cm at T1
+nereo_metrics,Sbulb_max1,"numerical, mm",diameter of the stipe at the widest point below the bulb/pneumatocyst (to nearest 1mm) at T1
 nereo_metrics,comments,character,"notes made by diver, often a reason as to why measurements are missing."
 nereo_metrics,date2,yyyy-mm-dd,second sampling event in a 3-part sampling interval.
 nereo_metrics,tag2,"categorical, numeric range","unique number associated with a plant recorded again at time2, redundant column with tag1, used for QC. A decimal indicates the re-use of an old tag and should be treated as unique."
 nereo_metrics,time2,hh:mm (24hour),time at which collection event 2 started.
 nereo_metrics,time2_decimal,numerical,"time 2 expressed in decimals, used to calculate rates. "
-nereo_metrics,Bcount2,integer,number of blades attached to pneumatocyst and longer than 5cm at T2.
-nereo_metrics,Dbulb,"numerical, cm",diameter of the bulb/pneumatocyst (to nearest 0.5cm).
-nereo_metrics,Sbulb_10,"numerical, cm",diameter of the stipe 10cm below the bulb/pneumatocyst (to nearest 0.5cm).
-nereo_metrics,Sbulb_max,"numerical, cm",diameter of the stipe at the widest point below the bulb/pneumatocyst (to nearest 0.5cm).
+nereo_metrics,Bcount2,integer,number of blades attached to pneumatocyst and longer than 10cm at T2.
+nereo_metrics,Sbulb_max2,"numerical, mm",diameter of the stipe at the widest point below the bulb/pneumatocyst (to nearest 1mm) at T2
 nereo_metrics,distP2,"numerical, cm","distance from the pneumatocyst to the hole punch on the selected outer blade (to nearest 0.5cm), at T2. "
 nereo_metrics,obladeL2,"numerical, cm",length of selected outer blade from the pneumatocyst to the end of blade (to nearest 0.5cm) at T2.
 nereo_metrics,presence2,categorical,"refers to plants tagged for loss estimates, present (y), absent (n) at T2.  "
@@ -36,7 +35,8 @@ nereo_metrics,tag3,"categorical, numeric range","unique number associated with a
 nereo_metrics,time3,hh:mm (24hour),time at which collection event 3 started.
 nereo_metrics,time3_decimal,numerical,"time3 expressed in decimals, used to calculate rates "
 nereo_metrics,stipeL3,"numerical, cm",length measured from the holdfast to halfway through the pneumatocyst (to nearest  cm) at T3.
-nereo_metrics,Bcount3,integer,number of blades attached to pneumatocyst and longer than 5cm at T3.
+nereo_metrics,Bcount3,integer,number of blades attached to pneumatocyst and longer than 10cm at T3.
+nereo_metrics,Sbulb_max3,"numerical, mm",diameter of the stipe at the widest point below the bulb/pneumatocyst (to nearest 1mm) at T3
 nereo_metrics,comments,character,"notes made by diver, often a reason as to why measurements are missing."
 nereo_metrics,Bgrowth_rate,cm day-1,(distP2-distP1)/(date2-date1)
 nereo_metrics,Sgrowth_rate,cm day-1,(stipeL3-stipeL1)/ (date3-date1)
@@ -45,50 +45,50 @@ nereo_metrics,Bcount_growth,n day-1,(Bcount3-Bcount2)/(date3-date2)
 nereo_harvest,period,yyyy-mmm,date expressed in year-month which refers to the sampling event 
 nereo_harvest,date,yyyy-mm-dd,date spelled as year-month-day.
 nereo_harvest,contour,categorical,"one of three depth categories that target different areas of a bed (deep, mid, shallow), not part of core site monitoring. "
-nereo_harvest,transect,"categorical, numeric range",refers to a perticular area around a transect or inbetween 2 transects. 
 nereo_harvest,site,categorical,"name of bed sampled (core beds are north, manley, second, triquetta)."
+nereo_harvest,transect,"categorical, numeric range",refers to a perticular area around a transect or inbetween 2 transects. 
+nereo_harvest,tag,"categorical, numeric range",unique number associated with a plant (repeats indicate measurements done on the same plant). Corresponds with rest of dataset. A decimal indicates the reuse of an old tag and should be treated as unique.
 nereo_harvest,diver,categorical,initials of person(s) who collected data.
 nereo_harvest,stipeL,"numerical, cm",length from the holdfast to halfway through the pneumatocyst.
-nereo_harvest,bladeL,"numerical, cm",average length from pneumatocyst to where the bulk of the blades end (cm).
+nereo_harvest,bladeL,"numerical, cm",average length from pneumatocyst to where the majority of the blades end (in cm)
 nereo_harvest,Bwidth,"numerical, cm",blade width measured halfway through the length of a randomly selected blade (to nearest 0.5cm).
 nereo_harvest,pneuD,"numerical, cm",widest diameter of the bulb/pneumatocyst.
 nereo_harvest,Sbulb_15,"numerical, cm",sub bulb diameter of the stipe 15cm below the bulb/pneumatocyst .
 nereo_harvest,Sbulb_10,"numerical, cm",sub bulb diameter of the stipe 10cm below the bulb/pneumatocyst.
-nereo_harvest,Sbulb_max,"numerical, cm",sub bulb diameter of the stipe at widdest point bellow the bulb/pneumatocyst.
-nereo_harvest,Bcount,integer,number of blades attached to pneumatocyst and longer than 5cm.
+nereo_harvest,Sbulb_max,"numerical, mm",sub-bulb - diameter of the stipe at the widest point below the bulb/pneumatocyst (to nearest 1mm).
+nereo_harvest,Bcount,integer,number of blades attached to pneumatocyst and longer than 10cm.
 nereo_harvest,bladeW,"numerical, kg",weight of all blades in kg. 
 nereo_harvest,stipeW,"numerical, kg",weight of stipe in kg. 
 nereo_harvest,Psori,categorical,"proportion of reproductive sori recorded as 0% (0), 0-50% (L ), or 50-100% (H). "
 nereo_harvest,comments,character,"notes made by recorder, often a reason as to why measurements are missing."
 nereo_harvest,uniqueID,"categorical, numeric range",refers to id given to sample associated to isotope analysis encompassing all of the nearshore projects. 
 nereo_harvest,sampleID,"categorical, numeric range",refers to id given to sample within the scope of this project. 
-nereo_wetdry,interval,"categorical, numeric range",continuous numerical series where each integer corresponds to a new sampling period.
-nereo_wetdry,period,yyyy-mmm,date expressed in year-month which refers to the sampling event 
-nereo_wetdry,date,yyyy-mm-dd,date spelled as year-month-day.
-nereo_wetdry,site,categorical,"name of bed sampled (core beds are north, manley, second, triquetta)."
-nereo_wetdry,uniqueID,"categorical, numeric range",refers to id given to sample associated to isotope analysis encompassing all of the nearshore projects. 
-nereo_wetdry,sampleID,"categorical, numeric range",refers to id given to sample within the scope of this project. 
-nereo_wetdry,stipe_blade,categorical,indicates whether the sample is from a blade or stipe. 
-nereo_wetdry,tag,"categorical, numeric range",unique number associated with a plant (repeats indicate measurements done on the same plant). Corresponds with rest of dataset. A decimal indicates the reuse of an old tag and should be treated as unique.
-nereo_wetdry,length,"numerical, cm",length of sample (cm). 
-nereo_wetdry,tray,"numerical, mg",weight of tray (mg)
-nereo_wetdry,tray_wet,"numerical, mg",weight of tray and wet sample (mg)
-nereo_wetdry,time_oven,hours:minutes (24h),hours spend in drying over at 60 degrees Celcius
-nereo_wetdry,tray_dry,"numerical, ug",weight of tray and dry sample (mg)
-nereo_wetdry,comments,character,"notes made by recorder, often a reason as to why measurements are missing."
-tag_additional,interval,"categorical, numeric range","continuous numerical series where each integer corresponds to a new sampling period. Each interval has 3 timestamps associated with it (T1,T2 and T3). "
-tag_additional,date1,yyyy-mm-dd,"date at which the plants were tagged, expressed as year-month-day. "
-tag_additional,site,categorical,"name of bed sampled (core beds are north, manley, second, triquetta)."
-tag_additional,diver,categorical,initials of person(s) who collected data.
-tag_additional,transect,"categorical, numeric range",refers to 1 of 3 specific permanent transect lines associated to one site.
-tag_additional,side,categorical,refers to right or left side of the transect line when facing towards the 20m end.
-tag_additional,colour,character,zip tie colour used to tag plants for that interval
-tag_additional,distance,"numerical, meters",refers to the distance (in m) on the transect line that’s closest to a particular plant or group of plants.
-tag_additional,new,integer,number of plants tagged at date1
-tag_additional,date2,yyyy-mm-dd,"date at which the tagged plants were recounted, spelled as year-month-day. "
-tag_additional,found,integer,number of plants found at date2
-tag_additional,comments,character,"notes made by diver, often a reason as to why measurements are missing."
-metrics_long,interval,"categorical, numeric range","continuous numerical series where each integer corresponds to a new sampling period. Each interval has 3 timestamp associated to it (T1, T2 and T3). "
+wet_dry,period,yyyy-mmm,date expressed in year-month which refers to the sampling event 
+wet_dry,date,yyyy-mm-dd,date spelled as year-month-day.
+wet_dry,site,categorical,"name of bed sampled (core beds are north, manley, second, triquetta)."
+wet_dry,species,categorical,short form in reference to a particular species of kelp the sample comes from
+wet_dry,uniqueID,"categorical, numeric range",refers to id given to sample associated to isotope analysis encompassing all of the nearshore projects. 
+wet_dry,sampleID,"categorical, numeric range",refers to id given to sample within the scope of this project. 
+wet_dry,stipe_blade,categorical,indicates whether the sample is from a blade or stipe. 
+wet_dry,tag,"categorical, numeric range",unique number associated with a plant (repeats indicate measurements done on the same plant). Corresponds with rest of dataset. A decimal indicates the reuse of an old tag and should be treated as unique.
+wet_dry,length,"numerical, cm",length of sample (cm). 
+wet_dry,tray,"numerical, mg",weight of tray (mg)
+wet_dry,tray_wet,"numerical, mg",weight of tray and wet sample (mg)
+wet_dry,time_oven,hours:minutes (24h),hours spend in drying over at 60 degrees Celcius
+wet_dry,tray_dry,"numerical, mg",weight of tray and dry sample (mg)
+wet_dry,comments,character,"notes made by recorder, often a reason as to why measurements are missing."
+nereo_tag_additional,period,yyyy-mmm,date expressed in year-month which refers to the sampling event 
+nereo_tag_additional,date1,yyyy-mm-dd,"date at which the plants were tagged, expressed as year-month-day. "
+nereo_tag_additional,site,categorical,"name of bed sampled (core beds are north, manley, second, triquetta)."
+nereo_tag_additional,diver,categorical,initials of person(s) who collected data.
+nereo_tag_additional,transect,"categorical, numeric range",refers to 1 of 3 specific permanent transect lines associated to one site.
+nereo_tag_additional,side,categorical,refers to right or left side of the transect line when facing towards the 20m end.
+nereo_tag_additional,colour,character,zip tie colour used to tag plants for that interval
+nereo_tag_additional,distance,"numerical, meters",refers to the distance (in m) on the transect line that’s closest to a particular plant or group of plants.
+nereo_tag_additional,new,integer,number of plants tagged at date1
+nereo_tag_additional,date2,yyyy-mm-dd,"date at which the tagged plants were recounted, spelled as year-month-day. "
+nereo_tag_additional,found,integer,number of plants found at date2
+metrics_long,period,yyyy-mmm,date expressed in year-month which refers to the sampling event 
 metrics_long,date,yyyy-mm-dd,date spelled as year-month-day. This is used to calculate periods between time stamps.
 metrics_long,site,categorical,"name of bed sampled (core beds are north, manley, second, triquetta)."
 metrics_long,diver,categorical,initials of person(s) who collected data.
@@ -101,26 +101,20 @@ metrics_long,presence,categorical,"refers to plants tagged for loss estimates, p
 metrics_long,timestamp,categorical,"refers to one of the 3 events; T1, T2 or T3 with a single sampling period or interval."
 metrics_long,stipe_length,"numerical, cm",length from the holdfast to halfway through the pneumatocyst. This is repeated at T1 and T3.
 metrics_long,blade_count,integer,number of blades attached to pneumatocyst and longer than 5cm. This is repeated at T1 and T3.
-metrics_long,punch _length,"numerical, cm",distance from the pneumatocyst to the hole punch on the selected outer blade. This is measured at T1 and T2.
-metrics_long,punch_blade _length,"numerical, cm",length of selected outer blade from the pneumatocyst to the end of blade. This is measured at T1 and T2.
-metrics_long,blade_ave_length,"numerical, cm",average length from pneumatocyst to where the bulk of the blades end (in cm).
+metrics_long,punch_length,"numerical, cm",distance from the pneumatocyst to the hole punch on the selected outer blade. This is measured at T1 and T2.
+metrics_long,punch_blade_length,"numerical, cm",length of selected outer blade from the pneumatocyst to the end of blade. This is measured at T1 and T2.
+metrics_long,blade_avg_length,"numerical, cm",average length from pneumatocyst to where the bulk of the blades end (in cm).
 metrics_long,sori,categorical,"proportion of reproductive sori recorded as  0% (0), 0-50% (“L” - low), or 50-100%(“H” - high). This is estimated at T1 and during additional size structure subsample. "
-metrics_rates,interval,"categorical, numeric range","continuous numerical series where each integer corresponds to a new sampling period. Each interval has 3 timestamp associated to it (T1, T2 and T3). "
+metrics_long,Sbulb_max,"numerical, mm",sub-bulb - diameter of the stipe at the widest point below the bulb/pneumatocyst (to nearest 1mm).
+metrics_rates,period,yyyy-mmm,date expressed in year-month which refers to the sampling event 
 metrics_rates,site,categorical,"name of bed sampled (core beds are north, manley, second, triquetta)."
-metrics_rates,diver,categorical,initials of person(s) who collected data.
 metrics_rates,transect,"categorical, numeric range",refers to 1 of 3 specific permanent transect lines associated to one site.
-metrics_rates,side,categorical,refers to right or left side of the transect line when facing towards the 20m end.
-metrics_rates,distance,"numerical, meters",refers to the distance (in m) on the transect line that’s closest to a particular plant.
 metrics_rates,tag,"categorical, numeric range",unique number associated with a plant (repeats indicate measurements done on the same plant). A decimal indicates the reuse of an old tag and should be treated as unique.
 metrics_rates,stipe_length.1,"numerical, cm",length from the holdfast to halfway through the pneumatocyst at T1.
-metrics_rates,blade_ave_length.1,"numerical, cm",average length from pneumatocyst to where the bulk of the blades end (in cm) at T1.
-metrics_rates,punch _length.1,"numerical, cm",distance from the pneumatocyst to the hole punch on the selected outer blade at T1.
-metrics_rates,punch_blade _length.1,"numerical, cm",length of selected outer blade from the pneumatocyst to the end of blade at T1.
+metrics_rates,punch_blade_length.1,"numerical, cm",length of selected outer blade from the pneumatocyst to the end of blade at T1.
+metrics_rates,blade_avg_length.1,"numerical, cm",average length from pneumatocyst to where the bulk of the blades end (in cm) at T1.
 metrics_rates,blade_count.2,integer,number of blades attached to pneumatocyst and longer than 5cm at T2.
-metrics_rates,punch _length.2,"numerical, cm",distance from the pneumatocyst to the hole punch on the selected outer blade at T2.
-metrics_rates,punch_blade _length.2,"numerical, cm",length of selected outer blade from the pneumatocyst to the end of blade at T2.
-metrics_rates,stipe_length.3,"numerical, cm",length from the holdfast to halfway through the pneumatocyst at T3.
-metrics_rates,blade_count.3,integer,number of blades attached to pneumatocyst and longer than 5cm at T3.
+metrics_rates,Sbulb_max_initial,"numerical, mm",sub-bulb - diameter of the stipe at the widest point below the bulb/pneumatocyst (to nearest 1mm) at T1 or T2.
 metrics_rates,date_time.1,yyyy-mm-dd hh:mm,date and time corresponding to T1 or time_stamp1 and spelled as year-month-day 00:00 (24h clock).
 metrics_rates,date_time.2,yyyy-mm-dd hh:mm,date and time corresponding to T2 or time_stamp2 and spelled as year-month-day 00:00 (24h clock).
 metrics_rates,date_time.3,yyyy-mm-dd hh:mm,date and time corresponding to T3 or time_stamp3 and spelled as year-month-day 00:00 (24h clock).
@@ -128,13 +122,13 @@ metrics_rates,stipe_growth_rate,cm day-1,change in stipe length between T3 and T
 metrics_rates,change_blade_count_rate,n day-1,change in blade count between T3 and T2 as a function of time in number of blades/day.  Equation: (Bcount3-Bcount2)/(date3-date2).
 metrics_rates,blade_growth_rate,cm day-1,change in the distance from the bulb to the hole punch between T2 to T1 as a function of time in cm/day. Equation: (distP2-distP1)/(date2-date1).
 metrics_rates,blade_erosion_rate,cm day-1,change in punched blade length after growth is subtracted as a function of time in cm/day. Equation: [(obladeL2-obladeL1) -(distP2-distP1)]/(date2-date1).
-metrics_rates,year,yyyy,"year extracted from date at T1, redundant."
-metrics_rates,month,mmm,"month extracted from T1, redundant."
-tag_loss,interval,"categorical, numeric range","continuous numerical series where each integer corresponds to a new sampling period. Each interval has 3 timestamps associated with it (T1, T2 and T3). "
+metrics_rates,Sbulb_growth_rate,mm day-1,sub-bulb growth rate - change in the stipe diameter at the widest point below the bulb/pneumatocyst between T1/T2 and T3 as a function of time mm/day.
+metrics_rates,Sbulb_growth_rate_interval,mm day-1,the reference interval (T1 to T3 or T2 to T3) for the sulb-bulb growth rate measurement 
+tag_loss,period,yyyy-mmm,date expressed in year-month which refers to the sampling event 
 tag_loss,site,categorical,"name of bed sampled (core beds are north, manley, second, triquetta)."
-tag_loss,date_time1,yyyy-mm-dd hh:mm,"date at which the plants were tagged, expressed as year-month-day. "
-tag_loss,date_time3,yyyy-mm-dd hh:mm,"date at which the tagged plants were recounted, expressed as year-month-day. "
-tag_loss,datasource,categorical,original raw data csv( metrics.csv or additional tag data.csv)
+tag_loss,date.1,yyyy-mm-dd hh:mm,"date at which the plants were tagged, expressed as year-month-day. "
+tag_loss,date.3,yyyy-mm-dd hh:mm,"date at which the tagged plants were recounted, expressed as year-month-day. "
+tag_loss,datasource,categorical,original raw data csv( metrics_long.csv or nereo_tag_additional.csv)
 tag_loss,tag_start,integer,number of tagged plants at date.1 (or T1).
 tag_loss,tag_end,integer,number of tagged plants found at date.3 (or T3).
 tag_loss,tag_lost,integer,number of tagged plants that were lost between date.1 and date.3.
@@ -163,14 +157,46 @@ nereo_size,diver,categorical,initials of person(s) who collected data.
 nereo_size,transect,"categorical, numeric range",refers to a particular area around a line or in between 2 transects.
 nereo_size,side,categorical,refers to right or left side of the transect line when facing towards the 20m end.
 nereo_size,dist,"numerical, m",distance of the start of the bin/area surveyed along the transect.
-nereo_size,Sbulb_max,"numerical, cm",diameter of the stipe at the widest point below the bulb/pneumatocyst (to nearest 0.5cm).
+nereo_size,Sbulb_max,"numerical, mm",sub-bulb - diameter of the stipe at the widest point below the bulb/pneumatocyst (to nearest 1mm).
+nereo_size,comments,character,"notes made by recorder, often a reason as to why measurements are missing."
 site_metadata,site,categorical,name of bed sampled
 site_metadata,latitude,numerical,site latitute 
 site_metadata,longitude,numerical,site longitude
 site_metadata,annual_sampling,YYYY,years during which annual surveys were conducted at the site (generally in either July or Aug) 
-site_metadata,additonal_sampling,YYYY,years during which additional seasonal surveys were conducted at the site 
-site_metadata,transect_type,categorical,"describes how the transects were placed at the site: series, parallel"
-site_metadata,transect_position,categorical,"describes how the transects were placed at the site: series, parallel"
+site_metadata,additional_sampling,YYYY,years during which additional seasonal surveys besides single annual survey were conducted at the site 
+site_metadata,transect_type,categorical,describes if transects were surveyed along temporary transects or permanent  fixed leadlines
+site_metadata,transect_position,categorical,"describes how the transects were placed at the site in relation to one another: series, parallel"
 site_metadata,transect_number,integer,number of transects that were surveyed 
-site_metadata,transect_length,"numerical, m ",length in meter of the transect(s) surveyed 
+site_metadata,transect_length_m,"numerical, m ",length in meter of the transect(s) surveyed 
 site_metadata,notes,character,additional relevent information about the survey 
+nereo_blade_turnover,period,yyyy-mmm,date expressed in year-month which refers to the sampling event 
+nereo_blade_turnover,tag,"categorical, numeric range",unique number associated with a plant (repeats indicate measurements done on the same plant). A decimal indicates the reuse of an old tag and should be treated as unique.
+nereo_blade_turnover,site,categorical,"name of bed surveyed (core beds are north, manley, second, triquetta)."
+nereo_blade_turnover,diver,categorical,initials of person(s) who collected data.
+nereo_blade_turnover,transect,"categorical, numeric range",refers to 1 of 3 specific permanent transect lines associated to one site.
+nereo_blade_turnover,side,categorical,refers to right or left side of the transect line when facing towards the 20m end.
+nereo_blade_turnover,dist,numerical,refers to the distance (in m) on the transect line that’s closest to a particular plant.
+nereo_blade_turnover,date1,yyyy-mm-dd,first sampling event in a 3-part sampling interval.
+nereo_blade_turnover,time1,hh:mm (24hour),time at which collection event 1 started.
+nereo_blade_turnover,time1_decimal,numerical,"time1 expressed in decimals, used to calculate rates. "
+nereo_blade_turnover,Bcount1,integer,number of blades attached to pneumatocyst and longer than 10cm at T1. All were punched. 
+nereo_blade_turnover,date2,yyyy-mm-dd,second sampling event in a 3-part sampling interval.
+nereo_blade_turnover,time2,hh:mm (24hour),time at which collection event 2 started.
+nereo_blade_turnover,time2_decimal,numerical,"time 2 expressed in decimals, used to calculate rates. "
+nereo_blade_turnover,Bpunch2,integer,number of blades with punched hole at T2 from T1
+nereo_blade_turnover,Bcount2,integer,number of blades attached to pneumatocyst and longer than 10cm at T2.
+nereo_blade_turnover,notes2,character,additional relevent information about the survey at T2
+nereo_blade_turnover,date3,yyyy-mm-dd,third (last) sampling event in a 3-part sampling interval.
+nereo_blade_turnover,presence3,,
+nereo_blade_turnover,time3,hh:mm (24hour),time at which collection event 3 started.
+nereo_blade_turnover,time3_decimal,numerical,"time3 expressed in decimals, used to calculate rates "
+nereo_blade_turnover,Bpunch3,integer,number of blades with punched holes at T3 from T1
+nereo_blade_turnover,Bcount3,integer,number of blades attached to pneumatocyst and longer than 10cm at T3.
+nereo_blade_turnover,Bpunch3_dock,integer,number of blades with punched holes at T3 from T1 but measured on the dock for comparison with in-situ measurement (precision).
+nereo_blade_turnover,Bcount3_dock,integer,number of blades attached to pneumatocyst and longer than 10cm at T3 but measured back on the dock for comparison with in-situ measurement (precision).
+nereo_blade_turnover,comments,character,"notes made by diver, often a reason as to why measurements are missing."
+nereo_blade_turnover,Sbulb_max3,"numerical, mm",diameter of the stipe at the widest point below the bulb/pneumatocyst (to nearest 1mm) at T3
+nereo_blade_turnover,stipeL3,"numerical, cm",length measured from the holdfast to halfway through the pneumatocyst (to nearest  cm) at T3.
+nereo_blade_turnover,bladeL3,"numerical, cm",average length from pneumatocyst to where the majority of the blades end (in cm at T3)
+nereo_blade_turnover,Bwidth3,,
+nereo_blade_turnover,Psori3,categorical,"proportion of reproductive sori recorded as 0% (0), 0-50% (L ), or 50-100% (H), at T3"
