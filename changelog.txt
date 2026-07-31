@@ -1,7 +1,27 @@
-# Changelog
+﻿# Changelog
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
+
+
+
+## [v1.3.0] - 2026-07-30
+### Updates
+- added new data file that pertains to blade turn over, nereo_blade_turnover.csv
+- added summer 2026 data to:
+- nereo_size.csv
+- nereo_density.csv 
+- nereo_harvest.csv 
+- nereo_metrics.csv 
+- added variables (Bcount1, Sbulb_max1, Sbulb_max3)
+- changed variable Sbulb_max to Sbulb_max2
+- removed variables Dbulb and Sbulb10 (not relevant and very little data)
+- metrics_long.csv 
+- metrics_rates.csv
+- added Sbulb_growth rate parameter and Sbulb_growth rate_interval (and data dictionary)  
+- nomenclature changes in metrics_rates.csv and R script, reflected in data.dictionary
+- added variable for change in Sbulb_max over time
+
 
 ## [v1.3.0] - 2026-01-19
 ### Added
@@ -14,16 +34,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - metrics_long.csv 
 - metrics_rates.csv
 
+
 ### Change
 - Changed the data package title to: Nereocystis kelp canopy productivity data from BC Central Coast, v1.3.0
 - renamed harvest.csv to nereo_harvest.csv
-- renamed wet_dry.csv to nereo_wetdry.csv
+- renamed tag_additional.csv to nereo_tag_additional.csv
 - renamed metrics.csv to nereo_metrics.csv and removed data where only sub-bulb diameter information was collected 
-- created nereo_size.csv for instances where only sub-bulb-diameter is measured 
+- created nereo_size.csv for instances where additional sub-bulb-diameters were measured across the population 
 - combined density.csv and binned_density.csv into one spreadsheet : nereo_density.csv  
 - updated README document to match changes
 - updated Data_dictionary document to match changes
 - changes “line” variable to “transect” to match other datasets
+
+
 
 
 ## [v1.2.0] - 2021-09-15
@@ -62,9 +85,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - New sites (North_tombolo_sparse, North_tombolo_dense)  to protocols site map and tables
 
 
+
 ## [v1.0.0] - 2019-10-15
 ### Notes
 - This is the initial release of the Nereocystis kelp canopy productivity data from BC Central Coast, 2016-2019 v1.0.0
+
 
 ### Added 
 - Changelog.txt
@@ -83,9 +108,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - tag_loss.csv 
 - metrics_long.R
 - metrics_rates.R
-- tag_loss.R 
-
-
-
-
-
+- tag_loss.R

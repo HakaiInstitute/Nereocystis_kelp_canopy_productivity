@@ -1,4 +1,4 @@
-nereo_merg#This script is used to generate a csv that compiles all 4 rates measured in 
+#This script is used to generate a csv that compiles all 4 rates measured in 
 #the "metrics" neresocystis dataset by:
 #1.reformating metrics dataframe from long form dataset back into wide form,
 #2.calculating stipe growth, blade growth, blade erosion and change in blade count for every plant
@@ -7,7 +7,7 @@ nereo_merg#This script is used to generate a csv that compiles all 4 rates measu
 #4. plots size distribution for certain growth rates
 
 #Created by Ondine Sept. 2018.
-#Last updated : Nov. 2020
+#Last updated : Jul 2026
 
 
 rm(list=ls())
@@ -25,21 +25,23 @@ metrics <- read.csv("metrics_long.csv")
 metrics_tag <-subset(metrics, tag !="NA")
 
 #combines date and time into one variable 
-metrics_tag$date_time <- ymd_hms((paste(metrics_tag$date, metrics_tag$time)))
+metrics_tag$date_time <- parse_date_time(paste(metrics_tag$date, metrics_tag$time),
+                                         orders = c("ymd HMS", "ymd HM"))
 
 str(metrics_tag)
 
 ### Converts long form dataframe into wide format ###
 
 #reshape into wide format
-metrics_tag_wide <-reshape(metrics_tag, 
-                           idvar = c("tag", "site", "transect", "side", "distance", "diver", "interval"), 
-                           timevar = "timestamp", 
-                           direction = "wide")
+metrics_tag_wide <- reshape(metrics_tag, 
+                            idvar = c("tag", "site", "period"), 
+                            timevar = "timestamp", 
+                            direction = "wide")
+metrics_tag_wide$transect <- coalesce(metrics_tag_wide$transect.1, metrics_tag_wide$transect.2, metrics_tag_wide$transect.3)
 
 #extract interval and event dates from metrics
-metrics_dates <- metrics_tag_wide %>% 
-  distinct(interval, site, date.1, date.2, date.3)
+#metrics_dates <- metrics_tag_wide %>% 
+#  distinct(interval, site, date.1, date.2, date.3)
 
 #Outputs csv 
 #write.csv(metrics_dates, "nereo_survey_dates.csv", row.names=FALSE)
@@ -51,41 +53,52 @@ metrics_tag_wide$stipe_growth_rate <- with (metrics_tag_wide,
                                             ((stipe_length.3-stipe_length.1))/(as.numeric(date_time.3-date_time.1)))
 #calculates change in blade count, represented as a rate of blades per day
 #used to take the LOG of each count before subtracting them... proprotional change
-metrics_tag_wide$prp_blade_dpl_rate <- with (metrics_tag_wide, 
+metrics_tag_wide$change_blade_count_rate <- with (metrics_tag_wide, 
                                                   ((blade_count.3)-(blade_count.2))/as.numeric(date_time.3-date_time.2))
-#calculates blade growth, represented as a rate of cm of blades per day
+#calculates blade growth, represented as a rate of cm of blade length per day
 metrics_tag_wide$blade_growth_rate <- with (metrics_tag_wide, 
                                             ((punch_length.2-punch_length.1))/(as.numeric((date_time.2-date_time.1))))
 #calculates erosion, represented as a rate of cm of blades per day
 metrics_tag_wide$blade_erosion_rate <- with (metrics_tag_wide, 
                                              ((punch_blade_length.2-punch_blade_length.1)-(punch_length.2-punch_length.1))
                                              /as.numeric((date_time.2-date_time.1)))
+#calculates change in sub-bulb diamter (proxi for biomass), represented as a rate of mm girth per day
+#since Sbulb measurements were done inconsistently across timepoints the difference is calculated between 
+# time1 and 3, time 1 and 2 and time 2 and 3
+metrics_tag_wide$Sbulb_growth_rate <- with(metrics_tag_wide, case_when(
+  !is.na(Sbulb_max.1) & !is.na(Sbulb_max.3) ~ 
+    (Sbulb_max.3 - Sbulb_max.1) / as.numeric(date_time.3 - date_time.1),
+  !is.na(Sbulb_max.1) & !is.na(Sbulb_max.2) ~ 
+    (Sbulb_max.2 - Sbulb_max.1) / as.numeric(date_time.2 - date_time.1),
+  !is.na(Sbulb_max.2) & !is.na(Sbulb_max.3) ~ 
+    (Sbulb_max.3 - Sbulb_max.2) / as.numeric(date_time.3 - date_time.2),
+  TRUE ~ NA_real_
+))
 
-#selects variables of interest
-metrics_rates <- select(metrics_tag_wide, interval, site, diver, transect, side, distance, tag, 
-                        stipe_length.1, blade_avg_length.1, Sbulb_max.1, punch_length.1, punch_blade_length.1,
-                        blade_count.2, punch_length.2, punch_blade_length.2,
-                        stipe_length.3, blade_count.3, 
-                        interval, date_time.1, date_time.2, date_time.3,
-                        stipe_growth_rate, prp_blade_dpl_rate, 
-                        blade_growth_rate, blade_erosion_rate )
+metrics_tag_wide$Sbulb_growth_rate_interval <- with(metrics_tag_wide, case_when(
+  !is.na(Sbulb_max.1) & !is.na(Sbulb_max.3) ~ "t1-t3",
+  !is.na(Sbulb_max.1) & !is.na(Sbulb_max.2) ~ "t1-t2",
+  !is.na(Sbulb_max.2) & !is.na(Sbulb_max.3) ~ "t2-t3",
+  TRUE ~ NA_character_
+))
 
-#creates a collumn for year and month
-metrics_rates$year <- year(metrics_rates$date_time.1)
-metrics_rates$month <- month(metrics_rates$date_time.1, label = TRUE)
+
+#selects calculatated rates and initial measurements (for size dependencies)
+metrics_rates <- metrics_tag_wide %>%
+  mutate(Sbulb_max_initial = coalesce(Sbulb_max.1, Sbulb_max.2)) %>%
+  
+  select( period, site, transect, tag, 
+          stipe_length.1, punch_blade_length.1, blade_avg_length.1, 
+          blade_count.2, Sbulb_max_initial, 
+          date_time.1, date_time.2, date_time.3,
+          stipe_growth_rate, change_blade_count_rate, 
+          blade_growth_rate, blade_erosion_rate, Sbulb_growth_rate, Sbulb_growth_rate_interval)
+
 
 #outputs csv
 write.csv(metrics_rates, "metrics_rates.csv", row.names=FALSE)
 
-metrics_rates_avg <- metrics_rates %>%
-  group_by(interval, year, month, date_time.1, site) %>%
-  summarise_at(vars(stipe_length.1, blade_avg_length.1, 
-                    Sbulb_max.1, blade_count.2,
-                    stipe_growth_rate, prp_blade_dpl_rate, 
-                    blade_growth_rate, blade_erosion_rate), 
-               funs(mean, sd), na.rm=TRUE)
 
-#write.csv(metrics_rates_avg, "metrics_rates_avg.csv", row.names=FALSE)
 
 
 
