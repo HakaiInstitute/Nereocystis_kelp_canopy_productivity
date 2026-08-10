@@ -3,9 +3,15 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [v1.3.0] - 2026-08-04
+### Updates
+- added new compiled file nereo_sbulb_combined.csv, pooling all Sbulb_max measurements from nereo_metrics.csv and nereo_size.csv into one long-form table, with a data_source column (nereo_metricsT1/T2/T3 or nereo_size)
+- added new script sbulb_combined.R to generate nereo_sbulb_combined.csv
+- updated Data_dictionary.csv and README.txt to document nereo_sbulb_combined.csv and sbulb_combined.R
 
 
-## [v1.3.0] - 2026-07-30
+## [v1.3.0] 
+- 2026-07-30
 ### Updates
 - added new data file that pertains to blade turn over, nereo_blade_turnover.csv
 - added summer 2026 data to:
@@ -22,8 +28,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - nomenclature changes in metrics_rates.csv and R script, reflected in data.dictionary
 - added variable for change in Sbulb_max over time
 
-
-## [v1.3.0] - 2026-01-19
+- 2026-01-19
 ### Added
 - added new sites 
 - added summer 2022-2025 data to:
@@ -33,7 +38,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - nereo_metrics.csv 
 - metrics_long.csv 
 - metrics_rates.csv
-
 
 ### Change
 - Changed the data package title to: Nereocystis kelp canopy productivity data from BC Central Coast, v1.3.0

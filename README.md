@@ -24,7 +24,8 @@ The nereocystis canopy production dataset is a component of Hakai Institute’s 
 # Scripts 
 - Convert raw data (nereo_metrics.csv) into long form (metrics_long.csv) - metrics_long.R
 - Calculate rates: blade growth, stipe growth, erosion and blade - metrics_rates.R
-Amalgamate all tagged plants into one dataframe - tag_loss.R
+- Amalgamate all tagged plants into one dataframe - tag_loss.R
+- Combine all sub-bulb diameter measurements into one dataframe - sbulb_combined.R
 
 # Raw data documents
 - Information related to each individual sites such as gps coordinates (site_metadata.csv)
@@ -39,6 +40,7 @@ Amalgamate all tagged plants into one dataframe - tag_loss.R
 - Long form version of underwater morphometrics measurement file (metrics_long.csv) 
 - Summarized growth rates (metrics_rates.csv)
 - Amalgamation of all tag data sources (tag_loss.csv)
+- Amalgamation of sub-bulb diameter (proxy for plant weight) measured across data sources nereo_metrics at T1, T2, T3 and nereo_size, (nereo_sbulb_combined.csv)
 
 # Link to any associated resources:
 - Previous versions are archived [here](https://drive.google.com/drive/u/0/folders/14EWU0zY1prKYkoXglIMxtnjuHt6XyYTa)
