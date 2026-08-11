@@ -33,8 +33,9 @@ The nereocystis canopy production dataset is a component of Hakai Institute’s 
 - Underwater N. luetkeana adult sub-bulb diameter (mm) measurements (nereo_size.csv)
 - Additional underwater morphometric measurements taken on N. luetkeana plants in permanent plots inter- and intra-annually including stipe and blade elongation (nereo_metrics.csv) 
 - Out of water measurements taken on harvested N. luetkeana plants inter-annually (nereo_harvest.csv) 
-- Dried N. luetkeana tissue (nereo_wet_dry.csv) 
-- Additional plants tagged for plant loss (tag_additional.csv)
+- N. luetkeana (and other kelps) tissue data (wet_dry.csv) 
+- Additional plants tagged for plant loss (nereo_tag_additional.csv)
+- Additional plants tagged to track the turn-over in blade count (nereo_blade_turnover.csv)
 
 # Compiled data documents:
 - Long form version of underwater morphometrics measurement file (metrics_long.csv) 

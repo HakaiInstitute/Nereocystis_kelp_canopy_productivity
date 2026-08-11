@@ -63,7 +63,7 @@ nereo_harvest,Psori,categorical,"proportion of reproductive sori recorded as 0% 
 nereo_harvest,comments,character,"notes made by recorder, often a reason as to why measurements are missing."
 nereo_harvest,uniqueID,"categorical, numeric range",refers to id given to sample associated to isotope analysis encompassing all of the nearshore projects. 
 nereo_harvest,sampleID,"categorical, numeric range",refers to id given to sample within the scope of this project. 
-wet_dry,period,yyyy-mmm,date expressed in year-month 
+wet_dry,period,yyyy-mmm,date expressed in year-month which refers to the sampling event 
 wet_dry,date,yyyy-mm-dd,date spelled as year-month-day.
 wet_dry,site,categorical,"name of bed sampled (core beds are north, manley, second, triquetta)."
 wet_dry,species,categorical,short form in reference to a particular species of kelp the sample comes from
@@ -77,7 +77,7 @@ wet_dry,tray_wet,"numerical, mg",weight of tray and wet sample (mg)
 wet_dry,time_oven,hours:minutes (24h),hours spend in drying over at 60 degrees Celcius
 wet_dry,tray_dry,"numerical, mg",weight of tray and dry sample (mg)
 wet_dry,comments,character,"notes made by recorder, often a reason as to why measurements are missing."
-nereo_tag_additional,period,yyyy-mmm,date expressed in year-month 
+nereo_tag_additional,period,yyyy-mmm,date expressed in year-month which refers to the sampling event 
 nereo_tag_additional,date1,yyyy-mm-dd,"date at which the plants were tagged, expressed as year-month-day. "
 nereo_tag_additional,site,categorical,"name of bed sampled (core beds are north, manley, second, triquetta)."
 nereo_tag_additional,diver,categorical,initials of person(s) who collected data.
@@ -88,7 +88,7 @@ nereo_tag_additional,distance,"numerical, meters",refers to the distance (in m) 
 nereo_tag_additional,new,integer,number of plants tagged at date1
 nereo_tag_additional,date2,yyyy-mm-dd,"date at which the tagged plants were recounted, spelled as year-month-day. "
 nereo_tag_additional,found,integer,number of plants found at date2
-metrics_long,period,yyyy-mmm,date expressed in year-month 
+metrics_long,period,yyyy-mmm,date expressed in year-month which refers to the sampling event 
 metrics_long,date,yyyy-mm-dd,date spelled as year-month-day. This is used to calculate periods between time stamps.
 metrics_long,site,categorical,"name of bed sampled (core beds are north, manley, second, triquetta)."
 metrics_long,diver,categorical,initials of person(s) who collected data.
@@ -106,7 +106,7 @@ metrics_long,punch_blade_length,"numerical, cm",length of selected outer blade f
 metrics_long,blade_avg_length,"numerical, cm",average length from pneumatocyst to where the bulk of the blades end (in cm).
 metrics_long,sori,categorical,"proportion of reproductive sori recorded as  0% (0), 0-50% (“L” - low), or 50-100%(“H” - high). This is estimated at T1 and during additional size structure subsample. "
 metrics_long,Sbulb_max,"numerical, mm",sub-bulb - diameter of the stipe at the widest point below the bulb/pneumatocyst (to nearest 1mm).
-metrics_rates,period,yyyy-mmm,date expressed in year-month 
+metrics_rates,period,yyyy-mmm,date expressed in year-month which refers to the sampling event 
 metrics_rates,site,categorical,"name of bed sampled (core beds are north, manley, second, triquetta)."
 metrics_rates,transect,"categorical, numeric range",refers to 1 of 3 specific permanent transect lines associated to one site.
 metrics_rates,tag,"categorical, numeric range",unique number associated with a plant (repeats indicate measurements done on the same plant). A decimal indicates the reuse of an old tag and should be treated as unique.
@@ -124,7 +124,7 @@ metrics_rates,blade_growth_rate,cm day-1,change in the distance from the bulb to
 metrics_rates,blade_erosion_rate,cm day-1,change in punched blade length after growth is subtracted as a function of time in cm/day. Equation: [(obladeL2-obladeL1) -(distP2-distP1)]/(date2-date1).
 metrics_rates,Sbulb_growth_rate,mm day-1,sub-bulb growth rate - change in the stipe diameter at the widest point below the bulb/pneumatocyst between T1/T2 and T3 as a function of time mm/day.
 metrics_rates,Sbulb_growth_rate_interval,mm day-1,the reference interval (T1 to T3 or T2 to T3) for the sulb-bulb growth rate measurement 
-tag_loss,period,yyyy-mmm,date expressed in year-month 
+tag_loss,period,yyyy-mmm,date expressed in year-month which refers to the sampling event 
 tag_loss,site,categorical,"name of bed sampled (core beds are north, manley, second, triquetta)."
 tag_loss,date.1,yyyy-mm-dd hh:mm,"date at which the plants were tagged, expressed as year-month-day. "
 tag_loss,date.3,yyyy-mm-dd hh:mm,"date at which the tagged plants were recounted, expressed as year-month-day. "
@@ -169,7 +169,7 @@ site_metadata,transect_position,categorical,"describes how the transects were pl
 site_metadata,transect_number,integer,number of transects that were surveyed 
 site_metadata,transect_length_m,"numerical, m ",length in meter of the transect(s) surveyed 
 site_metadata,notes,character,additional relevent information about the survey 
-nereo_blade_turnover,period,yyyy-mmm,date expressed in year-month 
+nereo_blade_turnover,period,yyyy-mmm,date expressed in year-month which refers to the sampling event 
 nereo_blade_turnover,tag,"categorical, numeric range",unique number associated with a plant (repeats indicate measurements done on the same plant). A decimal indicates the reuse of an old tag and should be treated as unique.
 nereo_blade_turnover,site,categorical,"name of bed surveyed (core beds are north, manley, second, triquetta)."
 nereo_blade_turnover,diver,categorical,initials of person(s) who collected data.
