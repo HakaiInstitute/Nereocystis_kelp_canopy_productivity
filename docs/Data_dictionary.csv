@@ -1,6 +1,6 @@
 Table,Variable Name,Class and Units,Description
 nereo_metrics,interval,"categorical, numeric range","continuous numerical series where each integer corresponds to a new sampling period. Each interval has 3 time stamps associated with it (T1,T2 and T3). "
-nereo_metrics,period,yyyy-mmm,date expressed in year-month which refers to the sampling event 
+nereo_metrics,period,yyyy-mmm,date expressed in year-month 
 nereo_metrics,date1,yyyy-mm-dd,first sampling event in a 3-part sampling interval.
 nereo_metrics,site,categorical,"name of bed surveyed (core beds are north, manley, second, triquetta)."
 nereo_metrics,diver,categorical,initials of person(s) who collected data.
@@ -42,7 +42,7 @@ nereo_metrics,Bgrowth_rate,cm day-1,(distP2-distP1)/(date2-date1)
 nereo_metrics,Sgrowth_rate,cm day-1,(stipeL3-stipeL1)/ (date3-date1)
 nereo_metrics,Berosion_rate,cm day-1,[(obladeL2-obladeL1) -(distP2-distP1)]/(date2-date1)
 nereo_metrics,Bcount_growth,n day-1,(Bcount3-Bcount2)/(date3-date2)
-nereo_harvest,period,yyyy-mmm,date expressed in year-month which refers to the sampling event 
+nereo_harvest,period,yyyy-mmm,date expressed in year-month 
 nereo_harvest,date,yyyy-mm-dd,date spelled as year-month-day.
 nereo_harvest,contour,categorical,"one of three depth categories that target different areas of a bed (deep, mid, shallow), not part of core site monitoring. "
 nereo_harvest,site,categorical,"name of bed sampled (core beds are north, manley, second, triquetta)."
@@ -136,7 +136,7 @@ tag_loss,ratio_loss,numerical,ratio between number of tagged plants at T3 and T1
 tag_loss,period_day,integer,number of days between T1 and T3.
 tag_loss,para1,numerical,tag_end (number of tagged plants found at T3) + 0.5.
 tag_loss,para2,numerical,tag_lost (number of lost tagged plants) + 0.5.
-nereo_density,period,yyyy-mmm,date expressed in year-month which refers to the sampling event 
+nereo_density,period,yyyy-mmm,date expressed in year-month 
 nereo_density,date,yyyy-mm-dd,date as year-month-day.
 nereo_density,site,categorical,"name of bed sampled (core beds are north, manley, second, triquetta)."
 nereo_density,diver,categorical,initials of person(s) who collected data.
@@ -150,7 +150,7 @@ nereo_density,stipeD,integer,number of plants greater than 1m.
 nereo_density,depth,"numerical, m",dive computer reading at a location in meters below surface.
 nereo_density,time,hh:mm (24hour),time at which the measurements were made (24 h clock). This is used to calculate zero chart datum depth to account for tide height.
 nereo_density,comments,character,"notes made by diver, often a reason as to why measurements are missing."
-nereo_size,period,yyyy-mmm,date expressed in year-month which refers to the sampling event 
+nereo_size,period,yyyy-mmm,date expressed in year-month 
 nereo_size,date,yyyy-mm-dd,date as year-month-day.
 nereo_size,site,categorical,"name of bed sampled (core beds are north, manley, second, triquetta)."
 nereo_size,diver,categorical,initials of person(s) who collected data.
@@ -200,3 +200,13 @@ nereo_blade_turnover,stipeL3,"numerical, cm",length measured from the holdfast t
 nereo_blade_turnover,bladeL3,"numerical, cm",average length from pneumatocyst to where the majority of the blades end (in cm at T3)
 nereo_blade_turnover,Bwidth3,,
 nereo_blade_turnover,Psori3,categorical,"proportion of reproductive sori recorded as 0% (0), 0-50% (L ), or 50-100% (H), at T3"
+nereo_sbulb_combined,period,yyyy-mmm,date expressed in year-month 
+nereo_sbulb_combined,site,categorical,"name of bed sampled (core beds are north, manley, second, triquetta)."
+nereo_sbulb_combined,diver,categorical,initials of person(s) who collected data.
+nereo_sbulb_combined,transect,"categorical, numeric range",refers to 1 of 3 specific permanent transect lines associated to one site.
+nereo_sbulb_combined,side,categorical,refers to right or left side of the transect line when facing towards the 20 or 30m end.
+nereo_sbulb_combined,dist,"numerical, m",refers to the distance (in m) on the transect line that‚ closest to a particular plant.
+nereo_sbulb_combined,date,yyyy-mm-dd,"date of the sub-bulb diameter measurement. Pulled from date1, date2 or date3 in nereo_metrics, or from date in nereo_size, depending on data_source."
+nereo_sbulb_combined,tag,"categorical, numeric range","unique number associated with a plant (repeats indicate measurements done on the same plant). NA for rows sourced from nereo_size or untagged nereo_metrics plants (additional, non-tagged plants). A decimal indicates the reuse of an old tag and should be treated as unique."
+nereo_sbulb_combined,Sbulb_max,"numerical, mm","diameter of the stipe at the widest point below the bulb/pneumatocyst (to nearest 1mm), pooled from nereo_metrics (Sbulb_max1, Sbulb_max2 or Sbulb_max3) and nereo_size (Sbulb_max)."
+nereo_sbulb_combined,data_source,categorical,"indicates the origin table and timepoint of this measurement: nereo_metricsT1, nereo_metricsT2, nereo_metricsT3 (from nereo_metrics.csv, timestamps 1-3) or nereo_size (from nereo_size.csv). Generated by sbulb_combined.R, which pools all sub-bulb diameter measurements from nereo_metrics.csv and nereo_size.csv into one long-form table (see nereo_sbulb_combined.csv)."
